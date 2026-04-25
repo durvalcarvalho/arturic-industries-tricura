@@ -44,8 +44,8 @@ class ReferenceData:
 def default_reference() -> ReferenceData:
     """Build the canonical reference from the Employee Portal (as of Q4 2025)."""
     return ReferenceData(
-        departments=frozenset[str]({"MDR", "SA", "WB"}),
-        processors=frozenset[str](
+        departments=frozenset({"MDR", "SA", "WB"}),
+        processors=frozenset(
             {
                 "James.L",
                 "Nora.K",
@@ -56,8 +56,8 @@ def default_reference() -> ReferenceData:
                 "Clara.M",
             }
         ),
-        bins=frozenset[str]({"GR", "BL", "AX", "SP"}),
-        categories=frozenset[str]({"alpha", "beta", "gamma", "delta"}),
+        bins=frozenset({"GR", "BL", "AX", "SP"}),
+        categories=frozenset({"alpha", "beta", "gamma", "delta"}),
         window_start=datetime(2025, 10, 1, 0, 0, 0),
         window_end=datetime(2025, 12, 31, 23, 59, 59),
         terminated_processors=MappingProxyType(

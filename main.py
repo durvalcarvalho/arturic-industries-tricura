@@ -4,6 +4,7 @@ import argparse
 import json
 import logging
 from dataclasses import asdict
+from decimal import Decimal
 from pathlib import Path
 
 from src.service import process_quarterly
@@ -58,6 +59,14 @@ def _print_human(stats_dict: dict[str, object], sessions_root: Path, strict_entr
     print(stats_dict["invalid_entry_reasons"] or "{}")
 
 
+def _normalize_stats_output(stats_dict: dict[str, object]) -> dict[str, object]:
+    normalized = dict(stats_dict)
+    value = normalized.get("sum_valid_values")
+    if isinstance(value, Decimal):
+        normalized["sum_valid_values"] = str(value.quantize(Decimal("0.01")))
+    return normalized
+
+
 def main() -> None:
     logging.basicConfig(
         level=logging.INFO,
@@ -72,7 +81,7 @@ def main() -> None:
         args.sessions_root,
         strict_entry_keys=strict_entry_keys,
     )
-    stats_dict = asdict(stats)
+    stats_dict = _normalize_stats_output(asdict(stats))
 
     if args.json:
         print(json.dumps(stats_dict, indent=2, sort_keys=True))

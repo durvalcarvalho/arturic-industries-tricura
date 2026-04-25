@@ -15,7 +15,9 @@ before validation, since it requires cross-session awareness.
 """
 
 import logging
+import math
 from dataclasses import dataclass, field
+from decimal import Decimal, InvalidOperation
 from datetime import datetime
 from typing import Any
 
@@ -30,13 +32,21 @@ _SESSION_TS_FORMATS: tuple[str, ...] = ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%S.
 ALLOWED_ENTRY_KEYS: frozenset[str] = frozenset({"ref", "bin", "value", "category"})
 
 
-def _parse_session_timestamp(value: str) -> datetime | None:
+def _parse_session_timestamp(value: object) -> datetime | None:
     """Try known timestamp formats and return None if all fail.
 
     It tries to parse the timestamp in two different formats:
     - %Y-%m-%dT%H:%M:%S -> example: 2025-10-01T00:00:00
     - %Y-%m-%dT%H:%M:%S.%f -> example: 2025-10-01T00:00:00.000000
     """
+    if not isinstance(value, str):
+        logger.info(
+            "Failed to parse timestamp: non-string value %r (type: %s)",
+            value,
+            type(value).__name__,
+        )
+        return None
+
     for fmt in _SESSION_TS_FORMATS:
         try:
             return datetime.strptime(value, fmt)
@@ -67,8 +77,32 @@ def _is_real_number(value: Any) -> bool:
         logger.info("Value is a boolean (should not be accepted as a number): %r", value)
         return False
 
+    # Reject non-finite numerics to avoid corrupting aggregates (NaN, inf, -inf).
+    numeric = float(value)
+    if not math.isfinite(numeric):
+        logger.info("Value is non-finite numeric (NaN/inf): %r", value)
+        return False
+
     # Otherwise, it's a valid real number
     return True
+
+
+def _to_decimal(value: Any) -> Decimal | None:
+    """Convert a numeric payload to Decimal, rejecting invalid/non-finite values."""
+    if not _is_real_number(value):
+        return None
+
+    try:
+        decimal_value = Decimal(str(value))
+    except (InvalidOperation, ValueError):
+        logger.info("Value cannot be converted to Decimal: %r", value)
+        return None
+
+    if not decimal_value.is_finite():
+        logger.info("Decimal value is non-finite (NaN/inf): %r", value)
+        return None
+
+    return decimal_value
 
 
 @dataclass(slots=True)
@@ -147,13 +181,14 @@ def validate_entry(
         reasons.append("category_not_allowed")
 
     # Rule 5: numeric and strictly positive value.
-    if not _is_real_number(entry.value):
+    decimal_value = _to_decimal(entry.value)
+    if decimal_value is None:
         reasons.append("value_not_numeric")
-    elif float(entry.value) <= 0:
+    elif decimal_value <= Decimal("0"):
         reasons.append("value_not_positive")
     else:
         # Rule 10: value ceiling (must be strictly less than 1000.00).
-        if float(entry.value) >= ref.value_ceiling:
+        if decimal_value >= Decimal(str(ref.value_ceiling)):
             reasons.append("value_above_ceiling")
 
     # Rules 8-9: department-bin authorization matrix.
@@ -183,7 +218,7 @@ class RunStats:
     entries_valid: int = 0  # Number of entries validated
     entries_invalid: int = 0  # Number of entries invalid
 
-    sum_valid_values: float = 0.0  # Sum of valid values
+    sum_valid_values: Decimal = field(default_factory=lambda: Decimal("0.00"))  # Sum of valid values
     invalid_session_reasons: dict[str, int] = field(default_factory=dict)  # Histogram of invalid session reasons
 
     invalid_entry_reasons: dict[str, int] = field(default_factory=dict)  # Histogram of invalid entry reasons

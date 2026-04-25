@@ -11,12 +11,13 @@ This module ties all layers together to run the full processing pipeline:
 """
 
 import logging
+from decimal import Decimal
 from pathlib import Path
 
 from .models import EntryRecord, SessionDocument
 from .reference import ReferenceData, default_reference
 from .repository import iter_session_files, load_session
-from .validation import ALLOWED_ENTRY_KEYS, RunStats, validate_entry, validate_session
+from .validation import ALLOWED_ENTRY_KEYS, RunStats, _to_decimal, validate_entry, validate_session
 
 logger = logging.getLogger(__name__)
 
@@ -57,7 +58,7 @@ def process_quarterly(
     logger.info(
         "Finished quarterly processing: files=%d after_dedup=%d sessions_valid=%d "
         "sessions_invalid=%d entries_seen=%d entries_valid=%d entries_invalid=%d "
-        "sum_valid_values=%.2f",
+        "sum_valid_values=%s",
         stats.files_seen,
         stats.files_used,
         stats.sessions_valid,
@@ -65,7 +66,7 @@ def process_quarterly(
         stats.entries_seen,
         stats.entries_valid,
         stats.entries_invalid,
-        stats.sum_valid_values,
+        _format_decimal_2dp(stats.sum_valid_values),
     )
     logger.info("Invalid session reasons: %s", stats.invalid_session_reasons)
     logger.info("Invalid entry reasons: %s", stats.invalid_entry_reasons)
@@ -95,11 +96,32 @@ def _dedup_sessions(docs: list[SessionDocument]) -> list[SessionDocument]:
 
 
 def _resolve_duplicate(existing: SessionDocument, incoming: SessionDocument) -> SessionDocument:
-    """Return whichever duplicate has the earlier timestamp, preferring the existing one on ties."""
+    """Resolve duplicate session_id preferring parseable and earlier timestamps.
+
+    Rules:
+    - If only one timestamp parses, keep the parseable one.
+    - If both parse, keep the earlier one.
+    - On ties or if both are unparseable, keep the existing one.
+    """
     from .validation import _parse_session_timestamp
 
     existing_ts = _parse_session_timestamp(existing.timestamp)
     incoming_ts = _parse_session_timestamp(incoming.timestamp)
+
+    if existing_ts is None and incoming_ts is not None:
+        logger.info(
+            "Dedup: replaced session_id=%s (incoming timestamp parseable; existing unparseable)",
+            incoming.session_id,
+        )
+        return incoming
+
+    if existing_ts is not None and incoming_ts is None:
+        logger.info(
+            "Dedup: discarded duplicate session_id=%s path=%s (incoming timestamp unparseable)",
+            incoming.session_id,
+            incoming.source_path,
+        )
+        return existing
 
     if existing_ts is not None and incoming_ts is not None and incoming_ts < existing_ts:
         logger.info(
@@ -198,7 +220,21 @@ def _process_entry(
         return
 
     stats.entries_valid += 1
-    stats.sum_valid_values += float(entry.value)
+    decimal_value = _to_decimal(entry.value)
+    if decimal_value is None:
+        # Defensive guard: validate_entry already rejects this path.
+        logger.error(
+            "Entry passed validation but value failed Decimal conversion: session_id=%s entry_ref=%s value=%r",
+            doc.session_id,
+            entry.ref,
+            entry.value,
+        )
+        stats.entries_invalid += 1
+        stats.entries_valid -= 1
+        stats.bump_reason(stats.invalid_entry_reasons, ("value_not_numeric",))
+        return
+
+    stats.sum_valid_values += decimal_value
 
 
 def _log_progress(processed_files: int, total_files: int, stats: RunStats) -> None:
@@ -222,3 +258,7 @@ def _log_rare_reasons(reason_type: str, reason_counts: dict[str, int]) -> None:
                 reason,
                 count,
             )
+
+
+def _format_decimal_2dp(value: Decimal) -> str:
+    return str(value.quantize(Decimal("0.01")))

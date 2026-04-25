@@ -7,7 +7,6 @@ These are plain dataclasses, no validation logic lives here; that belongs in val
 """
 
 from dataclasses import dataclass, field
-from datetime import datetime
 from pathlib import Path
 from typing import Any, Mapping
 
@@ -40,7 +39,8 @@ class SessionDocument:
     session_id: str
     processor: str
     department: str
-    timestamp: datetime
+    # Raw timestamp string from session JSON; parsing/validation is handled downstream.
+    timestamp: str
     entries: list[EntryRecord]
 
     # The path to the source file
