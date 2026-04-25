@@ -1,0 +1,128 @@
+"""Processing: load sessions -> validate -> aggregate.
+
+This module glue all the other modules together to perform the processing pipeline.
+
+- Read all .mdr files under the sessions directory
+- Parse them into SessionDocument
+- Validate sessions (rules 1, 2, 6 via validate_session)
+- Validate entries (rules 3, 4, 5 via validate_entry)
+- Sum valid values and collect rejection statistics
+
+TODO: Check if Compliance Annex rules has more rules, it may impact here
+"""
+
+from pathlib import Path
+
+from .models import EntryRecord, SessionDocument
+from .reference import ReferenceData, default_reference
+from .repository import iter_session_files, load_session
+from .validation import RunStats, validate_entry, validate_session
+
+
+def process_quarterly(
+    sessions_root: Path,
+    *,
+    reference: ReferenceData | None = None,
+    strict_entry_keys: bool = True,
+) -> RunStats:
+    """Run the processing pipeline applying rules 1-6."""
+    # Get the reference data rules
+    ref = reference or default_reference()
+
+    # Get the session paths
+    all_paths = _session_paths(sessions_root)
+
+    # Initialize the stats aggregator
+    stats = _init_run_stats(all_paths)
+
+    # Process each session
+    for path in all_paths:
+        doc = load_session(path)
+        _process_session(doc, stats, ref, strict_entry_keys=strict_entry_keys)
+
+    # TODO(annex): may add new stats here after compliance annex rules
+    return stats
+
+
+def _session_paths(sessions_root: Path) -> list[Path]:
+    return list[Path](iter_session_files(sessions_root))
+
+
+def _init_run_stats(all_paths: list[Path]) -> RunStats:
+    stats = RunStats()
+    stats.files_seen = len(all_paths)
+    stats.files_used = len(all_paths)
+    return stats
+
+
+def _process_session(
+    doc: SessionDocument,
+    stats: RunStats,
+    ref: ReferenceData,
+    *,
+    strict_entry_keys: bool,
+) -> None:
+    """Process a single session.
+
+    Handle the stats aggregation for the session.
+      - If the session is invalid, increment the invalid session counter and
+      - If the session is valid, process the entries.
+    """
+    # Validate the session
+    sv = validate_session(doc, ref)
+    if not sv.ok:
+        stats.sessions_invalid += 1
+        stats.bump_reason(stats.invalid_session_reasons, sv.reasons)
+        stats.entries_ignored_invalid_session += len(doc.entries)
+        return
+
+    stats.sessions_valid += 1
+    _process_valid_session_entries(
+        doc,
+        stats,
+        ref,
+        strict_entry_keys=strict_entry_keys,
+    )
+
+
+def _process_valid_session_entries(
+    doc: SessionDocument,
+    stats: RunStats,
+    ref: ReferenceData,
+    *,
+    strict_entry_keys: bool,
+) -> None:
+    """Process the entries of a valid session."""
+    for entry in doc.entries:
+        _process_entry(
+            entry,
+            stats,
+            ref,
+            strict_entry_keys=strict_entry_keys,
+        )
+
+
+def _process_entry(
+    entry: EntryRecord,
+    stats: RunStats,
+    ref: ReferenceData,
+    *,
+    strict_entry_keys: bool,
+) -> None:
+    """Process a single entry.
+
+    Handle the stats aggregation for the entry.
+      - If the entry is invalid, increment the invalid entry counter and
+      - If the entry is valid, increment the valid entry counter and add the value to the sum of valid values.
+    """
+    stats.entries_seen += 1
+
+    # Validate the entry
+    ev = validate_entry(entry, ref, strict_keys=strict_entry_keys)
+    if not ev.ok:
+        stats.entries_invalid += 1
+        stats.bump_reason(stats.invalid_entry_reasons, ev.reasons)
+        return
+
+    stats.entries_valid += 1
+    stats.sum_valid_values += float(entry.value)
