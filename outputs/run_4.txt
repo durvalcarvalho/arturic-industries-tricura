@@ -1,0 +1,7 @@
+$ python3 decode_clue.py quarterly_output/sessions/MDR/MDR-0156.mdr --field calibration_note
+Found 1 entry(s) with field='calibration_note'
+
+[1] entry_ref=GR-X042
+raw: 'WW91IGhhdmUgYmVlbiBzZWxlY3RlZCBmb3IgYSBDYWxpYnJhdGlvbiBTZXNzaW9uLiBZb3VyIHN1cGVydmlzb3IgYXdhaXRzIGF0OiAvY2FsaWJyYXRpb24='
+decoded (base64):
+You have been selected for a Calibration Session. Your supervisor awaits at: /calibration
