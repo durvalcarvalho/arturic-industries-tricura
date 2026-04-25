@@ -41,7 +41,7 @@ def _parse_session_timestamp(value: str) -> datetime | None:
         except ValueError:
             continue
 
-    logger.error(f"Failed to parse timestamp: {value}")
+    logger.info("Failed to parse timestamp: %s", value)
     return None
 
 
@@ -52,12 +52,16 @@ def _is_real_number(value: Any) -> bool:
     """
     # First, check if it's int or float at all
     if not isinstance(value, (int, float)):
-        logger.error(f"Value is not a number (int or float): {value!r} (type: {type(value).__name__})")
+        logger.info(
+            "Value is not a number (int or float): %r (type: %s)",
+            value,
+            type(value).__name__,
+        )
         return False
 
     # Then, explicitly reject bool (subclass of int)
     if isinstance(value, bool):
-        logger.error(f"Value is a boolean (should not be accepted as a number): {value!r}")
+        logger.info("Value is a boolean (should not be accepted as a number): %r", value)
         return False
 
     # Otherwise, it's a valid real number

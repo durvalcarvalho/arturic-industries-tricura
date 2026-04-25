@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import logging
 from dataclasses import asdict
 from pathlib import Path
 
@@ -58,6 +59,11 @@ def _print_human(stats_dict: dict[str, object], sessions_root: Path, strict_entr
 
 
 def main() -> None:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(levelname)s %(name)s: %(message)s",
+    )
+
     parser = _build_parser()
     args = parser.parse_args()
 

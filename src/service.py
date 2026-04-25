@@ -17,12 +17,15 @@ from pathlib import Path
 from .models import EntryRecord, SessionDocument
 from .reference import ReferenceData, default_reference
 from .repository import iter_session_files, load_session
-from .validation import RunStats, validate_entry, validate_session
+from .validation import ALLOWED_ENTRY_KEYS, RunStats, validate_entry, validate_session
 
 logger = logging.getLogger(__name__)
 
 # Log progress every 25 files
 _PROGRESS_EVERY_FILES = 25
+
+# Log rare reasons if the count is less than or equal to 3
+_RARE_REASON_THRESHOLD = 3
 
 
 def process_quarterly(
@@ -67,6 +70,8 @@ def process_quarterly(
     )
     logger.info("Invalid session reasons: %s", stats.invalid_session_reasons)
     logger.info("Invalid entry reasons: %s", stats.invalid_entry_reasons)
+    _log_rare_reasons("session", stats.invalid_session_reasons)
+    _log_rare_reasons("entry", stats.invalid_entry_reasons)
     return stats
 
 
@@ -119,8 +124,8 @@ def _process_session(
     )
     invalid_entries_in_session = stats.entries_invalid - invalid_entries_before
     if invalid_entries_in_session > 0:
-        logger.info(
-            "Session processed with rejected entries: id=%s path=%s invalid_entries=%d total_entries=%d",
+        logger.debug(
+            "Session had rejected entries: id=%s path=%s invalid_entries=%d total_entries=%d",
             doc.session_id,
             doc.source_path,
             invalid_entries_in_session,
@@ -138,6 +143,7 @@ def _process_valid_session_entries(
     """Process the entries of a valid session."""
     for entry in doc.entries:
         _process_entry(
+            doc,
             entry,
             stats,
             ref,
@@ -146,6 +152,7 @@ def _process_valid_session_entries(
 
 
 def _process_entry(
+    doc: SessionDocument,
     entry: EntryRecord,
     stats: RunStats,
     ref: ReferenceData,
@@ -165,6 +172,15 @@ def _process_entry(
     if not ev.ok:
         stats.entries_invalid += 1
         stats.bump_reason(stats.invalid_entry_reasons, ev.reasons)
+        extra_keys = sorted(set(entry.raw.keys()) - ALLOWED_ENTRY_KEYS)
+        if extra_keys:
+            logger.warning(
+                "Unexpected entry fields: session_id=%s path=%s entry_ref=%s extra_keys=%s",
+                doc.session_id,
+                doc.source_path,
+                entry.ref,
+                extra_keys,
+            )
         return
 
     stats.entries_valid += 1
@@ -181,3 +197,14 @@ def _log_progress(processed_files: int, total_files: int, stats: RunStats) -> No
             stats.sessions_invalid,
             stats.entries_seen,
         )
+
+
+def _log_rare_reasons(reason_type: str, reason_counts: dict[str, int]) -> None:
+    for reason, count in sorted(reason_counts.items(), key=lambda item: (item[1], item[0])):
+        if count <= _RARE_REASON_THRESHOLD:
+            logger.warning(
+                "Rare anomaly candidate: type=%s reason=%s count=%d",
+                reason_type,
+                reason,
+                count,
+            )
