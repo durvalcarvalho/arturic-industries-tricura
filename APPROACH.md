@@ -2,7 +2,7 @@
 
 ## Implementation
 
-The codebase is structured in layers: domain models, immutable reference data, a two-level validation engine (session then entry), filesystem I/O, and a pipeline orchestrator. Processing is deterministic: discover `.mdr` files, load sessions, validate headers, validate entries, aggregate counters and sum. Invalid sessions are rejected before their entries are evaluated.
+The codebase is structured in layers: domain models, immutable reference data, a two-level validation engine (session then entry), filesystem I/O, and a pipeline orchestrator. Processing is deterministic: discover `.mdr` files, load sessions, deduplicate by session_id (keeping first by timestamp), validate headers, validate entries, aggregate counters and sum. Invalid sessions are rejected before their entries are evaluated.
 
 Logging is built into the main flow. The pipeline reports progress, rejected sessions with reasons, unexpected entry fields with file/entry context, and rare anomaly candidates derived from reason frequencies. This supports investigation during normal runs without side scripts or feature toggles.
 
@@ -24,9 +24,15 @@ The `compliance.html` JavaScript performs client-side SHA-256 verification again
 
 After discovery, I researched the connection: Karl Jansky was a Bell Labs physicist who discovered cosmic radio waves at Holmdel in 1932. The facility photo's GPS coordinates point to that exact site.
 
-## Current status
+## Compliance Annex rules 7-12
 
-- Processing Manual rules 1-6: implemented and running.
-- Calibration trail: completed and validated.
-- Compliance access code: discovered (`JANSKY`).
-- Annex rules 7-12: **not yet implemented**. Next step is to extract and integrate those rules into the validation engine, rerun the full dataset, and produce the final metric.
+After unlocking the Annex, six additional rules were integrated into the validation engine: processor termination cutoff for Nora.K (rule 7), department-bin authorization matrix (rules 8-9), value ceiling at 1000.00 (rule 10), session_id deduplication keeping first by timestamp (rule 11), and weekday-only sessions (rule 12).
+
+## Result
+
+| Metric | Value |
+|--------|-------|
+| Files loaded / after dedup | 263 / 250 |
+| Sessions valid / invalid | 216 / 34 |
+| Entries valid / invalid | 2'565 / 324 |
+| **Sum of valid entry values** | **656'184.26** |

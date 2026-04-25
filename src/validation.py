@@ -1,14 +1,17 @@
-"""Validation engine: Processing Manual rules 1 to 6.
+"""Validation engine: Processing Manual rules 1-6 and Compliance Annex rules 7-12.
 
 Two levels of validation are applied in sequence:
 
 1. Session-level (validate_session): checks department, processor,
-   and timestamp in the Q4/2025 window.
+   timestamp window (rules 1, 2, 6), processor termination (rule 7),
+   and weekday-only policy (rule 12).
 
-2. Entry-level (validate_entry): checks bin, category, and value
-   for each row inside a valid session.
+2. Entry-level (validate_entry): checks bin, category, value
+   (rules 3, 4, 5), department-bin authorization (rules 8-9),
+   and value ceiling (rule 10).
 
-TODO: Check if Compliance Annex has more rules. Add them if needed.
+Rule 11 (duplicate session dedup) is handled in the service layer
+before validation, since it requires cross-session awareness.
 """
 
 import logging
@@ -88,7 +91,7 @@ def validate_session(
     doc: SessionDocument,
     ref: ReferenceData,
 ) -> SessionValidation:
-    """Apply Manual rules 1, 2, and 6."""
+    """Apply Manual rules 1, 2, 6 and Annex rules 7, 12."""
     reasons: list[str] = []
 
     # Rule 1: department must be authorized.
@@ -107,7 +110,16 @@ def validate_session(
     elif ts < ref.window_start or ts > ref.window_end:
         reasons.append("timestamp_outside_q4_2025")
 
-    # TODO: May add here later the Compliance Annex rules
+    if ts is not None:
+        # Rule 7: terminated processors (sessions after termination date are invalid).
+        cutoff = ref.terminated_processors.get(doc.processor)
+        if cutoff is not None and ts >= cutoff:
+            reasons.append("processor_terminated")
+
+        # Rule 12: weekday sessions only (facility closed on weekends).
+        if ts.weekday() >= 5:
+            reasons.append("weekend_session")
+
     return SessionValidation(ok=len(reasons) == 0, reasons=tuple(reasons))
 
 
@@ -115,33 +127,40 @@ def validate_entry(
     entry: EntryRecord,
     ref: ReferenceData,
     *,
+    department: str,
     strict_keys: bool = True,
 ) -> EntryValidation:
-    """Apply Manual rules 3, 4, and 5."""
+    """Apply Manual rules 3, 4, 5 and Annex rules 8-9, 10."""
     reasons: list[str] = []
 
-    # Check if any unexpected fields are present in the entry. This may lead to some important info
     if strict_keys:
         extra = set(entry.raw.keys()) - ALLOWED_ENTRY_KEYS
         if extra:
             reasons.append(f"unexpected_fields:{sorted(extra)}")
 
-    # Rule 3: bin must be one of the 4 signals
+    # Rule 3: bin must be one of the 4 signals.
     if entry.bin not in ref.bins:
         reasons.append("bin_not_allowed")
 
-    # Rule 4: category must match the allowed, case-sensitive set
+    # Rule 4: category must match the allowed, case-sensitive set.
     if entry.category not in ref.categories:
         reasons.append("category_not_allowed")
 
-    # Rule 5: numeric and strictly positive value
+    # Rule 5: numeric and strictly positive value.
     if not _is_real_number(entry.value):
         reasons.append("value_not_numeric")
-
     elif float(entry.value) <= 0:
         reasons.append("value_not_positive")
+    else:
+        # Rule 10: value ceiling (must be strictly less than 1000.00).
+        if float(entry.value) >= ref.value_ceiling:
+            reasons.append("value_above_ceiling")
 
-    # TODO: May add here later the Compliance Annex rules
+    # Rules 8-9: department-bin authorization matrix.
+    allowed_bins = ref.department_bin_matrix.get(department)
+    if allowed_bins is not None and entry.bin not in allowed_bins:
+        reasons.append("department_bin_not_authorized")
+
     return EntryValidation(
         ok=len(reasons) == 0,
         reasons=tuple(reasons),
