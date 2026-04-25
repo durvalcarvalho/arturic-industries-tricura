@@ -1,0 +1,92 @@
+INFO src.service: Starting quarterly processing: root=quarterly_output files=263 strict_entry_keys=True
+INFO src.service: Progress: files=25/263 sessions_valid=25 sessions_invalid=0 entries_seen=333
+INFO src.service: Progress: files=50/263 sessions_valid=50 sessions_invalid=0 entries_seen=674
+INFO src.service: Progress: files=75/263 sessions_valid=75 sessions_invalid=0 entries_seen=1019
+INFO src.service: Progress: files=100/263 sessions_valid=100 sessions_invalid=0 entries_seen=1361
+INFO src.service: Progress: files=125/263 sessions_valid=125 sessions_invalid=0 entries_seen=1690
+INFO src.service: Progress: files=150/263 sessions_valid=150 sessions_invalid=0 entries_seen=2029
+WARNING src.service: Unexpected entry fields: session_id=MDR-0156 path=quarterly_output/sessions/MDR/MDR-0156.mdr entry_ref=GR-X042 extra_keys=['calibration_note']
+WARNING src.service: Rejected session: id=MDR-0164 path=quarterly_output/sessions/MDR/MDR-0164.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=7
+WARNING src.service: Rejected session: id=MDR-0165 path=quarterly_output/sessions/MDR/MDR-0165.mdr reasons=['department_not_allowed'] ignored_entries=18
+WARNING src.service: Rejected session: id=MDR-0169 path=quarterly_output/sessions/MDR/MDR-0169.mdr reasons=['department_not_allowed'] ignored_entries=19
+WARNING src.service: Rejected session: id=MDR-0172 path=quarterly_output/sessions/MDR/MDR-0172.mdr reasons=['department_not_allowed'] ignored_entries=14
+WARNING src.service: Rejected session: id=MDR-0173 path=quarterly_output/sessions/MDR/MDR-0173.mdr reasons=['department_not_allowed'] ignored_entries=13
+WARNING src.service: Rejected session: id=MDR-0174 path=quarterly_output/sessions/MDR/MDR-0174.mdr reasons=['department_not_allowed'] ignored_entries=5
+INFO src.service: Progress: files=175/263 sessions_valid=169 sessions_invalid=6 entries_seen=2250
+WARNING src.service: Rejected session: id=MDR-0177 path=quarterly_output/sessions/MDR/MDR-0177.mdr reasons=['department_not_allowed'] ignored_entries=19
+WARNING src.service: Rejected session: id=MDR-0180 path=quarterly_output/sessions/MDR/MDR-0180.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=19
+WARNING src.service: Rejected session: id=MDR-0181 path=quarterly_output/sessions/MDR/MDR-0181.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=9
+WARNING src.service: Rejected session: id=MDR-0183 path=quarterly_output/sessions/MDR/MDR-0183.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=18
+WARNING src.service: Rejected session: id=MDR-0185 path=quarterly_output/sessions/MDR/MDR-0185.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=12
+WARNING src.service: Rejected session: id=MDR-0190 path=quarterly_output/sessions/MDR/MDR-0190.mdr reasons=['processor_not_authorized'] ignored_entries=14
+WARNING src.service: Rejected session: id=MDR-0193 path=quarterly_output/sessions/MDR/MDR-0193.mdr reasons=['processor_not_authorized'] ignored_entries=12
+WARNING src.service: Rejected session: id=MDR-0194 path=quarterly_output/sessions/MDR/MDR-0194.mdr reasons=['processor_not_authorized'] ignored_entries=18
+WARNING src.service: Rejected session: id=MDR-0200 path=quarterly_output/sessions/MDR/MDR-0200.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=6
+WARNING src.service: Rejected session: id=MDR-0201 path=quarterly_output/sessions/MDR/MDR-0201.mdr reasons=['processor_not_authorized'] ignored_entries=20
+INFO src.service: Progress: files=200/263 sessions_valid=184 sessions_invalid=16 entries_seen=2413
+WARNING src.service: Rejected session: id=MDR-0204 path=quarterly_output/sessions/MDR/MDR-0204.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=18
+WARNING src.service: Rejected session: id=MDR-0205 path=quarterly_output/sessions/MDR/MDR-0205.mdr reasons=['processor_not_authorized'] ignored_entries=8
+WARNING src.service: Rejected session: id=MDR-0208 path=quarterly_output/sessions/MDR/MDR-0208.mdr reasons=['department_not_allowed'] ignored_entries=13
+WARNING src.service: Rejected session: id=MDR-0211 path=quarterly_output/sessions/MDR/MDR-0211.mdr reasons=['processor_not_authorized'] ignored_entries=19
+WARNING src.service: Rejected session: id=MDR-0212 path=quarterly_output/sessions/MDR/MDR-0212.mdr reasons=['department_not_allowed'] ignored_entries=15
+WARNING src.service: Rejected session: id=MDR-0213 path=quarterly_output/sessions/MDR/MDR-0213.mdr reasons=['processor_not_authorized'] ignored_entries=11
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'NULL' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'NULL' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'NULL' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.service: Progress: files=225/263 sessions_valid=203 sessions_invalid=22 entries_seen=2653
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'NULL' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.validation: Value is not a number (int or float): 'NULL' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.validation: Value is not a number (int or float): 'N/A' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.validation: Value is not a number (int or float): '---' (type: str)
+INFO src.validation: Value is not a number (int or float): 'ERROR' (type: str)
+INFO src.service: Progress: files=250/263 sessions_valid=228 sessions_invalid=22 entries_seen=2981
+INFO src.service: Progress: files=263/263 sessions_valid=241 sessions_invalid=22 entries_seen=3138
+INFO src.service: Finished quarterly processing: files=263 sessions_valid=241 sessions_invalid=22 entries_seen=3138 entries_valid=2998 entries_invalid=140 sum_valid_values=880599.71
+INFO src.service: Invalid session reasons: {'timestamp_outside_q4_2025': 7, 'department_not_allowed': 8, 'processor_not_authorized': 7}
+INFO src.service: Invalid entry reasons: {"unexpected_fields:['calibration_note']": 1, 'value_not_positive': 34, 'bin_not_allowed': 36, 'value_not_numeric': 33, 'category_not_allowed': 37}
+WARNING src.service: Rare anomaly candidate: type=entry reason=unexpected_fields:['calibration_note'] count=1
+Quarterly processing completed
+Sessions root: quarterly_output
+Strict entry keys: True
+
+Main metrics
+- files_seen: 263
+- files_used: 263
+- sessions_valid: 241
+- sessions_invalid: 22
+- entries_seen: 3138
+- entries_valid: 2998
+- entries_invalid: 140
+- entries_ignored_invalid_session: 307
+- sum_valid_values: 880599.7100000005
+
+Invalid session reasons
+{'timestamp_outside_q4_2025': 7, 'department_not_allowed': 8, 'processor_not_authorized': 7}
+
+Invalid entry reasons
+{"unexpected_fields:['calibration_note']": 1, 'value_not_positive': 34, 'bin_not_allowed': 36, 'value_not_numeric': 33, 'category_not_allowed': 37}
