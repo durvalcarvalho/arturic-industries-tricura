@@ -1,0 +1,56 @@
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+
+======
+
+Quarterly processing completed
+Sessions root: quarterly_output
+Strict entry keys: True
+
+Main metrics
+- files_seen: 263
+- files_used: 263
+- sessions_valid: 241
+- sessions_invalid: 22
+- entries_seen: 3138
+- entries_valid: 2998
+- entries_invalid: 140
+- entries_ignored_invalid_session: 307
+- sum_valid_values: 880599.7100000005
+
+Invalid session reasons
+{'timestamp_outside_q4_2025': 7, 'department_not_allowed': 8, 'processor_not_authorized': 7}
+
+Invalid entry reasons
+{"unexpected_fields:['calibration_note']": 1, 'value_not_positive': 34, 'bin_not_allowed': 36, 'value_not_numeric': 33, 'category_not_allowed': 37}
