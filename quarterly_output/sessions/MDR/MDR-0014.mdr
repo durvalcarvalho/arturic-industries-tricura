@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0014",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-10-01T13:19:00",
+  "entries": [
+    {
+      "ref": "AX-A154",
+      "bin": "AX",
+      "value": 376.28,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A155",
+      "bin": "BL",
+      "value": 117.52,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A156",
+      "bin": "BL",
+      "value": 24.22,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A157",
+      "bin": "AX",
+      "value": 342.78,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A158",
+      "bin": "AX",
+      "value": 90.87,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A159",
+      "bin": "GR",
+      "value": 490.55,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A160",
+      "bin": "BL",
+      "value": 300.03,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A161",
+      "bin": "GR",
+      "value": 324.95,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A162",
+      "bin": "BL",
+      "value": 99.05,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-A163",
+      "bin": "BL",
+      "value": 170.4,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A164",
+      "bin": "BL",
+      "value": 175.38,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A165",
+      "bin": "BL",
+      "value": 378.48,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A166",
+      "bin": "BL",
+      "value": 419.11,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A167",
+      "bin": "GR",
+      "value": 377.02,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A168",
+      "bin": "BL",
+      "value": 119.87,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A169",
+      "bin": "AX",
+      "value": 29.73,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A170",
+      "bin": "GR",
+      "value": 107.69,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A171",
+      "bin": "AX",
+      "value": 84.67,
+      "category": "beta"
+    }
+  ]
+}

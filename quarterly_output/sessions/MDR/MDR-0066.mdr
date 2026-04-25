@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0066",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-11-20T16:18:00",
+  "entries": [
+    {
+      "ref": "BL-A879",
+      "bin": "BL",
+      "value": 353.89,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A880",
+      "bin": "AX",
+      "value": 272.92,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A881",
+      "bin": "BL",
+      "value": 50.96,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A882",
+      "bin": "AX",
+      "value": 461.25,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A883",
+      "bin": "AX",
+      "value": 170.11,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A884",
+      "bin": "BL",
+      "value": 352.35,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A885",
+      "bin": "GR",
+      "value": 129.8,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A886",
+      "bin": "GR",
+      "value": 232.15,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A887",
+      "bin": "BL",
+      "value": 336.38,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A888",
+      "bin": "GR",
+      "value": 16.21,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A889",
+      "bin": "AX",
+      "value": 15.56,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A890",
+      "bin": "BL",
+      "value": 266.27,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A891",
+      "bin": "GR",
+      "value": 192.22,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A892",
+      "bin": "AX",
+      "value": 444.34,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A893",
+      "bin": "BL",
+      "value": 405.48,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A894",
+      "bin": "AX",
+      "value": 41.3,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A895",
+      "bin": "BL",
+      "value": 233.05,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A896",
+      "bin": "GR",
+      "value": 254.81,
+      "category": "beta"
+    }
+  ]
+}

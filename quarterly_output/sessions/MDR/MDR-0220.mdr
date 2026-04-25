@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0220",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-06T09:09:00",
+  "entries": [
+    {
+      "ref": "AX-C918",
+      "bin": "AX",
+      "value": 88.57,
+      "category": "zeta"
+    },
+    {
+      "ref": "BL-C919",
+      "bin": "BL",
+      "value": 281.54,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C920",
+      "bin": "AX",
+      "value": 159.96,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C921",
+      "bin": "GR",
+      "value": 143.2,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C922",
+      "bin": "GR",
+      "value": 374.14,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C923",
+      "bin": "GR",
+      "value": 202.22,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C924",
+      "bin": "BL",
+      "value": 243.93,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C925",
+      "bin": "GR",
+      "value": 36.79,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C926",
+      "bin": "GR",
+      "value": 142.26,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C927",
+      "bin": "BL",
+      "value": "N/A",
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C928",
+      "bin": "GR",
+      "value": 113.84,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C929",
+      "bin": "BL",
+      "value": 101.99,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C930",
+      "bin": "GR",
+      "value": 127.76,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C931",
+      "bin": "AX",
+      "value": 31.99,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C932",
+      "bin": "GR",
+      "value": 4922.17,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C933",
+      "bin": "BL",
+      "value": 255.11,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C934",
+      "bin": "AX",
+      "value": 184.36,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C935",
+      "bin": "GR",
+      "value": 172.35,
+      "category": "alpha"
+    }
+  ]
+}

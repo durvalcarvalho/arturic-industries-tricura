@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0081",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-16T14:33:00",
+  "entries": [
+    {
+      "ref": "GR-B098",
+      "bin": "GR",
+      "value": 436.72,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B099",
+      "bin": "GR",
+      "value": 496.25,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B100",
+      "bin": "BL",
+      "value": 493.72,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B101",
+      "bin": "GR",
+      "value": 165.03,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B102",
+      "bin": "GR",
+      "value": 248.91,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B103",
+      "bin": "BL",
+      "value": 320.9,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B104",
+      "bin": "BL",
+      "value": 144.03,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B105",
+      "bin": "AX",
+      "value": 384.6,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B106",
+      "bin": "GR",
+      "value": 73.41,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B107",
+      "bin": "AX",
+      "value": 220.41,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B108",
+      "bin": "BL",
+      "value": 197.83,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B109",
+      "bin": "AX",
+      "value": 107.71,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B110",
+      "bin": "GR",
+      "value": 447.08,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B111",
+      "bin": "GR",
+      "value": 341.61,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B112",
+      "bin": "GR",
+      "value": 349.83,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B113",
+      "bin": "BL",
+      "value": 73.18,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B114",
+      "bin": "AX",
+      "value": 298.45,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B115",
+      "bin": "GR",
+      "value": 413.68,
+      "category": "gamma"
+    }
+  ]
+}

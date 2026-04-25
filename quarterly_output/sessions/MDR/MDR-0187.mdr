@@ -1,0 +1,38 @@
+{
+  "session_id": "MDR-0187",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-12-26T16:11:00",
+  "entries": [
+    {
+      "ref": "SP-C527",
+      "bin": "SP",
+      "value": 101.48,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C528",
+      "bin": "SP",
+      "value": 456.56,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C529",
+      "bin": "SP",
+      "value": 149.07,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C530",
+      "bin": "SP",
+      "value": 152.64,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C531",
+      "bin": "SP",
+      "value": 232.79,
+      "category": "gamma"
+    }
+  ]
+}

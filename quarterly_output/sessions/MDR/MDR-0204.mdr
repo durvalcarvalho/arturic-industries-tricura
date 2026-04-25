@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0204",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2026-01-09T17:00:00",
+  "entries": [
+    {
+      "ref": "GR-C720",
+      "bin": "GR",
+      "value": 317.22,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C721",
+      "bin": "GR",
+      "value": 26.66,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C722",
+      "bin": "BL",
+      "value": 249.43,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C723",
+      "bin": "AX",
+      "value": 375.15,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C724",
+      "bin": "BL",
+      "value": 433.8,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C725",
+      "bin": "BL",
+      "value": 319.84,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C726",
+      "bin": "BL",
+      "value": 15.69,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C727",
+      "bin": "GR",
+      "value": 69.81,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C728",
+      "bin": "GR",
+      "value": 297.56,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C729",
+      "bin": "BL",
+      "value": 349.93,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C730",
+      "bin": "AX",
+      "value": 98.74,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C731",
+      "bin": "AX",
+      "value": 354.34,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C732",
+      "bin": "AX",
+      "value": 71.37,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C733",
+      "bin": "GR",
+      "value": 359.75,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C734",
+      "bin": "BL",
+      "value": 408.31,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C735",
+      "bin": "BL",
+      "value": 282.47,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C736",
+      "bin": "GR",
+      "value": 264.26,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C737",
+      "bin": "GR",
+      "value": 483.18,
+      "category": "alpha"
+    }
+  ]
+}

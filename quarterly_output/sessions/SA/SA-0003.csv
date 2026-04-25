@@ -1,0 +1,6 @@
+session_id,processor,department,timestamp,ref,bin,output_metric,classification
+SA-0003,Clara.M,SA,2025-10-31T13:23:00,BL-D399,BL,458.15,beta
+SA-0003,Clara.M,SA,2025-10-31T13:23:00,SP-D400,SP,254.98,alpha
+SA-0003,Clara.M,SA,2025-10-31T13:23:00,SP-D401,SP,157.95,alpha
+SA-0003,Clara.M,SA,2025-10-31T13:23:00,BL-D402,BL,198.19,beta
+SA-0003,Clara.M,SA,2025-10-31T13:23:00,BL-D403,BL,83.87,gamma

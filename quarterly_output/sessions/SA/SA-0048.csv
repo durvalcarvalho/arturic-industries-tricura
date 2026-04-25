@@ -1,0 +1,7 @@
+session_id,processor,department,timestamp,ref,bin,output_metric,classification
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,SP-D980,SP,253.37,alpha
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,SP-D981,SP,84.27,beta
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,SP-D982,SP,55.01,gamma
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,BL-D983,BL,175.7,delta
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,BL-D984,BL,377.92,delta
+SA-0048,Felix.G,SA,2025-12-22T12:20:00,BL-D985,BL,277.1,delta

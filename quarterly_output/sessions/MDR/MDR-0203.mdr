@@ -1,0 +1,38 @@
+{
+  "session_id": "MDR-0203",
+  "processor": "Nora.K",
+  "department": "MDR",
+  "timestamp": "2025-11-07T10:13:00",
+  "entries": [
+    {
+      "ref": "SP-C715",
+      "bin": "SP",
+      "value": 187.49,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C716",
+      "bin": "SP",
+      "value": 342.38,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C717",
+      "bin": "SP",
+      "value": 194.51,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C718",
+      "bin": "SP",
+      "value": 342.93,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C719",
+      "bin": "SP",
+      "value": 463.73,
+      "category": "alpha"
+    }
+  ]
+}

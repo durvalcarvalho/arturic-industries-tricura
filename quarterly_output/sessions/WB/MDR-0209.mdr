@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0209",
+  "processor": "Dr.Voss",
+  "department": "WB",
+  "timestamp": "2025-12-26T17:26:00",
+  "entries": [
+    {
+      "ref": "SP-C774",
+      "bin": "SP",
+      "value": 493.26,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C775",
+      "bin": "SP",
+      "value": 256.09,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C776",
+      "bin": "SP",
+      "value": 476.78,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C777",
+      "bin": "SP",
+      "value": 159.54,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C778",
+      "bin": "SP",
+      "value": 474.25,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C779",
+      "bin": "SP",
+      "value": 387.58,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C780",
+      "bin": "SP",
+      "value": 320.99,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C781",
+      "bin": "SP",
+      "value": 367.68,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C782",
+      "bin": "SP",
+      "value": 90.91,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C783",
+      "bin": "SP",
+      "value": 51.45,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C784",
+      "bin": "SP",
+      "value": 281.54,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C785",
+      "bin": "SP",
+      "value": 406.09,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C786",
+      "bin": "SP",
+      "value": 481.46,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C787",
+      "bin": "SP",
+      "value": 341.75,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C788",
+      "bin": "SP",
+      "value": 245.03,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C789",
+      "bin": "SP",
+      "value": 208.68,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C790",
+      "bin": "SP",
+      "value": 456.33,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C791",
+      "bin": "SP",
+      "value": 359.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C792",
+      "bin": "SP",
+      "value": 129.67,
+      "category": "alpha"
+    }
+  ]
+}

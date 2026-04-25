@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0022",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-10-31T12:14:00",
+  "entries": [
+    {
+      "ref": "GR-A288",
+      "bin": "GR",
+      "value": 382.58,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A289",
+      "bin": "BL",
+      "value": 91.52,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A290",
+      "bin": "GR",
+      "value": 32.54,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A291",
+      "bin": "BL",
+      "value": 185.65,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A292",
+      "bin": "GR",
+      "value": 129.66,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A293",
+      "bin": "AX",
+      "value": 344.08,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A294",
+      "bin": "GR",
+      "value": 95.78,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A295",
+      "bin": "AX",
+      "value": 344.74,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A296",
+      "bin": "AX",
+      "value": 80.13,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A297",
+      "bin": "AX",
+      "value": 134.45,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A298",
+      "bin": "AX",
+      "value": 14.6,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A299",
+      "bin": "BL",
+      "value": 342.03,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A300",
+      "bin": "GR",
+      "value": 226.45,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A301",
+      "bin": "AX",
+      "value": 156.59,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A302",
+      "bin": "AX",
+      "value": 132.55,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A303",
+      "bin": "GR",
+      "value": 499.69,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A304",
+      "bin": "GR",
+      "value": 126.23,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A305",
+      "bin": "AX",
+      "value": 154.98,
+      "category": "gamma"
+    }
+  ]
+}

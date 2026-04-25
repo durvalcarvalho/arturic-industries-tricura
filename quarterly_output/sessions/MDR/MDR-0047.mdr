@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0047",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-21T09:11:00",
+  "entries": [
+    {
+      "ref": "BL-A619",
+      "bin": "BL",
+      "value": 468.55,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A620",
+      "bin": "BL",
+      "value": 197.95,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A621",
+      "bin": "BL",
+      "value": 477.48,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A622",
+      "bin": "AX",
+      "value": 364.21,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A623",
+      "bin": "BL",
+      "value": 330.3,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A624",
+      "bin": "GR",
+      "value": 337.22,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A625",
+      "bin": "BL",
+      "value": 88.26,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A626",
+      "bin": "AX",
+      "value": 67.53,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-A627",
+      "bin": "BL",
+      "value": 311.17,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A628",
+      "bin": "GR",
+      "value": 244.31,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A629",
+      "bin": "AX",
+      "value": 494.53,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-A630",
+      "bin": "BL",
+      "value": 353.95,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A631",
+      "bin": "AX",
+      "value": 402.98,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A632",
+      "bin": "GR",
+      "value": 343.37,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A633",
+      "bin": "AX",
+      "value": 228.91,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A634",
+      "bin": "GR",
+      "value": 459.45,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A635",
+      "bin": "GR",
+      "value": 416.1,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A636",
+      "bin": "AX",
+      "value": 272.96,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A637",
+      "bin": "BL",
+      "value": 428.7,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A638",
+      "bin": "GR",
+      "value": 343.34,
+      "category": "delta"
+    }
+  ]
+}

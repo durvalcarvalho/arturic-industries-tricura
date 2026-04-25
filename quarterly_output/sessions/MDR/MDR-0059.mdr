@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0059",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-12-10T10:21:00",
+  "entries": [
+    {
+      "ref": "BL-A787",
+      "bin": "BL",
+      "value": 123.61,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A788",
+      "bin": "AX",
+      "value": 100.38,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A789",
+      "bin": "BL",
+      "value": 24.3,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A790",
+      "bin": "BL",
+      "value": 300.18,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A791",
+      "bin": "GR",
+      "value": 355.32,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A792",
+      "bin": "BL",
+      "value": 378.64,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A793",
+      "bin": "AX",
+      "value": 59.86,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A794",
+      "bin": "BL",
+      "value": 169.73,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A795",
+      "bin": "GR",
+      "value": 138.55,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A796",
+      "bin": "AX",
+      "value": 483.3,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A797",
+      "bin": "AX",
+      "value": 200.43,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A798",
+      "bin": "AX",
+      "value": 65.97,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-A799",
+      "bin": "BL",
+      "value": 312.51,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A800",
+      "bin": "AX",
+      "value": 299.18,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A801",
+      "bin": "BL",
+      "value": 67.75,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A802",
+      "bin": "GR",
+      "value": 99.69,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A803",
+      "bin": "AX",
+      "value": 200.35,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A804",
+      "bin": "AX",
+      "value": 198.02,
+      "category": "beta"
+    }
+  ]
+}

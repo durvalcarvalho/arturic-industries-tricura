@@ -1,0 +1,38 @@
+{
+  "session_id": "MDR-0163",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-12-03T09:56:00",
+  "entries": [
+    {
+      "ref": "BL-C204",
+      "bin": "BL",
+      "value": 343.84,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C205",
+      "bin": "BL",
+      "value": 193.04,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C206",
+      "bin": "BL",
+      "value": 85.35,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C207",
+      "bin": "BL",
+      "value": 417.04,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C208",
+      "bin": "BL",
+      "value": 317.89,
+      "category": "gamma"
+    }
+  ]
+}

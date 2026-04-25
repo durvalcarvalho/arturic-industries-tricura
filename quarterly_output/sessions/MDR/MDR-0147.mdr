@@ -1,0 +1,44 @@
+{
+  "session_id": "MDR-0147",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-11-18T12:35:00",
+  "entries": [
+    {
+      "ref": "BL-B981",
+      "bin": "BL",
+      "value": 418.95,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B982",
+      "bin": "BL",
+      "value": 284.05,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B983",
+      "bin": "GR",
+      "value": 23.15,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B984",
+      "bin": "GR",
+      "value": 138.71,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B985",
+      "bin": "GR",
+      "value": 330.37,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B986",
+      "bin": "BL",
+      "value": 97.89,
+      "category": "beta"
+    }
+  ]
+}

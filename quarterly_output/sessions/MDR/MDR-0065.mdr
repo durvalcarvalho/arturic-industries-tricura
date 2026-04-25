@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0065",
+  "processor": "Nora.K",
+  "department": "MDR",
+  "timestamp": "2025-11-14T11:40:00",
+  "entries": [
+    {
+      "ref": "AX-A861",
+      "bin": "AX",
+      "value": 346.42,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A862",
+      "bin": "GR",
+      "value": 449.33,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A863",
+      "bin": "GR",
+      "value": 298.89,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A864",
+      "bin": "BL",
+      "value": 481.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A865",
+      "bin": "GR",
+      "value": 131.42,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A866",
+      "bin": "GR",
+      "value": 281.16,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A867",
+      "bin": "AX",
+      "value": 23.14,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A868",
+      "bin": "GR",
+      "value": 263.7,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A869",
+      "bin": "AX",
+      "value": 201.96,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A870",
+      "bin": "GR",
+      "value": 252.49,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A871",
+      "bin": "GR",
+      "value": 254.8,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A872",
+      "bin": "AX",
+      "value": 445.48,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A873",
+      "bin": "BL",
+      "value": 467.62,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A874",
+      "bin": "BL",
+      "value": 431.8,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A875",
+      "bin": "BL",
+      "value": 277.71,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A876",
+      "bin": "BL",
+      "value": 477.68,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A877",
+      "bin": "GR",
+      "value": 297.81,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A878",
+      "bin": "BL",
+      "value": 115.71,
+      "category": "alpha"
+    }
+  ]
+}

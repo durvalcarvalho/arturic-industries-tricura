@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0194",
+  "processor": "Harmon.D",
+  "department": "MDR",
+  "timestamp": "2025-12-10T11:15:00",
+  "entries": [
+    {
+      "ref": "AX-C608",
+      "bin": "AX",
+      "value": 238.87,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C609",
+      "bin": "AX",
+      "value": 106.79,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C610",
+      "bin": "GR",
+      "value": 306.87,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C611",
+      "bin": "BL",
+      "value": 292.45,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C612",
+      "bin": "BL",
+      "value": 432.59,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C613",
+      "bin": "GR",
+      "value": 476.0,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C614",
+      "bin": "BL",
+      "value": 195.08,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C615",
+      "bin": "BL",
+      "value": 217.12,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C616",
+      "bin": "GR",
+      "value": 411.61,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C617",
+      "bin": "GR",
+      "value": 383.35,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C618",
+      "bin": "GR",
+      "value": 381.84,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C619",
+      "bin": "AX",
+      "value": 273.23,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C620",
+      "bin": "BL",
+      "value": 196.42,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C621",
+      "bin": "BL",
+      "value": 148.78,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C622",
+      "bin": "GR",
+      "value": 173.28,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C623",
+      "bin": "GR",
+      "value": 85.81,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C624",
+      "bin": "GR",
+      "value": 16.29,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C625",
+      "bin": "BL",
+      "value": 208.23,
+      "category": "delta"
+    }
+  ]
+}

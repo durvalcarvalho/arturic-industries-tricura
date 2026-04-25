@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0149",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-10-15T10:59:00",
+  "entries": [
+    {
+      "ref": "BL-C008",
+      "bin": "BL",
+      "value": 162.67,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C009",
+      "bin": "GR",
+      "value": 410.35,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C010",
+      "bin": "GR",
+      "value": 357.85,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C011",
+      "bin": "AX",
+      "value": 409.14,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C012",
+      "bin": "GR",
+      "value": 429.84,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C013",
+      "bin": "AX",
+      "value": 121.02,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C014",
+      "bin": "GR",
+      "value": 73.81,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C015",
+      "bin": "BL",
+      "value": 348.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C016",
+      "bin": "GR",
+      "value": 19.22,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C017",
+      "bin": "BL",
+      "value": 30.83,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C018",
+      "bin": "GR",
+      "value": 398.6,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C019",
+      "bin": "BL",
+      "value": 68.27,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C020",
+      "bin": "GR",
+      "value": 42.46,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C021",
+      "bin": "GR",
+      "value": 393.36,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C022",
+      "bin": "AX",
+      "value": 451.58,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C023",
+      "bin": "AX",
+      "value": 182.25,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C024",
+      "bin": "GR",
+      "value": 424.47,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C025",
+      "bin": "AX",
+      "value": 180.44,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C026",
+      "bin": "AX",
+      "value": 392.59,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C027",
+      "bin": "AX",
+      "value": 289.42,
+      "category": "alpha"
+    }
+  ]
+}

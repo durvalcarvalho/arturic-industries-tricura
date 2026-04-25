@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0114",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-10-08T13:22:00",
+  "entries": [
+    {
+      "ref": "GR-B541",
+      "bin": "GR",
+      "value": 436.2,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B542",
+      "bin": "AX",
+      "value": 329.86,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B543",
+      "bin": "AX",
+      "value": 390.94,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B544",
+      "bin": "GR",
+      "value": 159.34,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B545",
+      "bin": "BL",
+      "value": 274.57,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B546",
+      "bin": "BL",
+      "value": 256.18,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B547",
+      "bin": "GR",
+      "value": 34.75,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B548",
+      "bin": "BL",
+      "value": 378.89,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B549",
+      "bin": "GR",
+      "value": 221.65,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B550",
+      "bin": "GR",
+      "value": 74.77,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B551",
+      "bin": "BL",
+      "value": 290.01,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B552",
+      "bin": "AX",
+      "value": 205.6,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B553",
+      "bin": "BL",
+      "value": 255.89,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B554",
+      "bin": "GR",
+      "value": 245.65,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B555",
+      "bin": "BL",
+      "value": 203.71,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B556",
+      "bin": "AX",
+      "value": 311.84,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B557",
+      "bin": "GR",
+      "value": 45.11,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B558",
+      "bin": "BL",
+      "value": 345.52,
+      "category": "alpha"
+    }
+  ]
+}

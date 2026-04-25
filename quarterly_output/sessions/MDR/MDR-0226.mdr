@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0226",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-27T14:24:00",
+  "entries": [
+    {
+      "ref": "GR-D012",
+      "bin": "GR",
+      "value": 98.11,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-D013",
+      "bin": "AX",
+      "value": 287.97,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D014",
+      "bin": "BL",
+      "value": 1633.55,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-D015",
+      "bin": "GR",
+      "value": 104.49,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-D016",
+      "bin": "AX",
+      "value": 260.75,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D017",
+      "bin": "GR",
+      "value": 2310.16,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D018",
+      "bin": "BL",
+      "value": 144.1,
+      "category": "omega"
+    },
+    {
+      "ref": "AX-D019",
+      "bin": "AX",
+      "value": "---",
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D020",
+      "bin": "BL",
+      "value": 461.95,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D021",
+      "bin": "BL",
+      "value": 1662.61,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D022",
+      "bin": "BL",
+      "value": -201.84,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-D023",
+      "bin": "AX",
+      "value": 2717.25,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D024",
+      "bin": "BL",
+      "value": 449.97,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-D025",
+      "bin": "GR",
+      "value": 479.47,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D026",
+      "bin": "BL",
+      "value": 305.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-D027",
+      "bin": "GR",
+      "value": 98.15,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-D028",
+      "bin": "GR",
+      "value": 185.29,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D029",
+      "bin": "BL",
+      "value": 1489.21,
+      "category": "gamma"
+    }
+  ]
+}

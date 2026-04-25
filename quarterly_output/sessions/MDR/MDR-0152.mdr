@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0152",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-10-16T11:53:00",
+  "entries": [
+    {
+      "ref": "BL-C051",
+      "bin": "BL",
+      "value": 384.76,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C052",
+      "bin": "AX",
+      "value": 472.18,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C053",
+      "bin": "BL",
+      "value": 336.67,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C054",
+      "bin": "BL",
+      "value": 260.59,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C055",
+      "bin": "BL",
+      "value": 62.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C056",
+      "bin": "BL",
+      "value": 253.66,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C057",
+      "bin": "GR",
+      "value": 58.81,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C058",
+      "bin": "GR",
+      "value": 254.09,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C059",
+      "bin": "GR",
+      "value": 197.49,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C060",
+      "bin": "GR",
+      "value": 158.35,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C061",
+      "bin": "GR",
+      "value": 333.93,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C062",
+      "bin": "BL",
+      "value": 108.95,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C063",
+      "bin": "BL",
+      "value": 257.35,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C064",
+      "bin": "AX",
+      "value": 277.84,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C065",
+      "bin": "BL",
+      "value": 441.26,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C066",
+      "bin": "BL",
+      "value": 230.56,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C067",
+      "bin": "BL",
+      "value": 235.23,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C068",
+      "bin": "GR",
+      "value": 282.77,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C069",
+      "bin": "AX",
+      "value": 90.43,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C070",
+      "bin": "GR",
+      "value": 163.11,
+      "category": "delta"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0183",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2026-01-09T10:00:00",
+  "entries": [
+    {
+      "ref": "AX-C472",
+      "bin": "AX",
+      "value": 42.03,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C473",
+      "bin": "GR",
+      "value": 399.5,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C474",
+      "bin": "AX",
+      "value": 195.32,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C475",
+      "bin": "BL",
+      "value": 303.78,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C476",
+      "bin": "GR",
+      "value": 383.91,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C477",
+      "bin": "AX",
+      "value": 154.15,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C478",
+      "bin": "BL",
+      "value": 131.11,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C479",
+      "bin": "GR",
+      "value": 427.24,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C480",
+      "bin": "GR",
+      "value": 366.38,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C481",
+      "bin": "AX",
+      "value": 311.29,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C482",
+      "bin": "AX",
+      "value": 200.18,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C483",
+      "bin": "BL",
+      "value": 264.26,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C484",
+      "bin": "BL",
+      "value": 359.12,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C485",
+      "bin": "AX",
+      "value": 478.32,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C486",
+      "bin": "BL",
+      "value": 294.78,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C487",
+      "bin": "GR",
+      "value": 117.57,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C488",
+      "bin": "BL",
+      "value": 432.95,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C489",
+      "bin": "GR",
+      "value": 159.94,
+      "category": "delta"
+    }
+  ]
+}

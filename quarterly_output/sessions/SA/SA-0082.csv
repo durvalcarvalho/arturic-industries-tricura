@@ -1,0 +1,6 @@
+session_id,processor,department,timestamp,ref,bin,output_metric,classification
+SA-0082,Webb.T,SA,2025-10-29T15:57:00,SP-E391,SP,326.16,delta
+SA-0082,Webb.T,SA,2025-10-29T15:57:00,SP-E392,SP,493.38,beta
+SA-0082,Webb.T,SA,2025-10-29T15:57:00,SP-E393,SP,141.16,gamma
+SA-0082,Webb.T,SA,2025-10-29T15:57:00,BL-E394,BL,348.05,gamma
+SA-0082,Webb.T,SA,2025-10-29T15:57:00,BL-E395,BL,375.74,alpha

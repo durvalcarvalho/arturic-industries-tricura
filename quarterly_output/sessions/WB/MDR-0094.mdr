@@ -1,0 +1,38 @@
+{
+  "session_id": "MDR-0094",
+  "processor": "Dr.Voss",
+  "department": "WB",
+  "timestamp": "2025-12-26T19:00:00",
+  "entries": [
+    {
+      "ref": "AX-F345",
+      "bin": "AX",
+      "value": 409.02,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-F346",
+      "bin": "AX",
+      "value": 333.67,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-F347",
+      "bin": "GR",
+      "value": 417.53,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-F348",
+      "bin": "AX",
+      "value": 167.35,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-F349",
+      "bin": "AX",
+      "value": 61.88,
+      "category": "beta"
+    }
+  ]
+}

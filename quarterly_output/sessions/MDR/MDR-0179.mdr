@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0179",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-01T14:41:00",
+  "entries": [
+    {
+      "ref": "SP-C409",
+      "bin": "SP",
+      "value": 423.73,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C410",
+      "bin": "SP",
+      "value": 144.28,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C411",
+      "bin": "SP",
+      "value": 252.83,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C412",
+      "bin": "SP",
+      "value": 443.06,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C413",
+      "bin": "SP",
+      "value": 33.01,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C414",
+      "bin": "SP",
+      "value": 270.88,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C415",
+      "bin": "SP",
+      "value": 12.53,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C416",
+      "bin": "SP",
+      "value": 174.01,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C417",
+      "bin": "SP",
+      "value": 495.23,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C418",
+      "bin": "SP",
+      "value": 489.27,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C419",
+      "bin": "SP",
+      "value": 479.31,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C420",
+      "bin": "SP",
+      "value": 106.47,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C421",
+      "bin": "SP",
+      "value": 162.29,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C422",
+      "bin": "SP",
+      "value": 23.66,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C423",
+      "bin": "SP",
+      "value": 405.95,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C424",
+      "bin": "SP",
+      "value": 421.85,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C425",
+      "bin": "SP",
+      "value": 62.84,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C426",
+      "bin": "SP",
+      "value": 479.81,
+      "category": "alpha"
+    }
+  ]
+}

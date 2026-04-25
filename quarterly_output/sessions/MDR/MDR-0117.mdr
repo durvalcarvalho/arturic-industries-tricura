@@ -1,0 +1,38 @@
+{
+  "session_id": "MDR-0117",
+  "processor": "Nora.K",
+  "department": "MDR",
+  "timestamp": "2025-11-12T15:25:00",
+  "entries": [
+    {
+      "ref": "BL-B582",
+      "bin": "BL",
+      "value": 345.31,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B583",
+      "bin": "AX",
+      "value": 158.14,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B584",
+      "bin": "GR",
+      "value": 316.64,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B585",
+      "bin": "GR",
+      "value": 472.63,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B586",
+      "bin": "GR",
+      "value": 84.34,
+      "category": "delta"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0243",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-10T08:27:00",
+  "entries": [
+    {
+      "ref": "BL-D263",
+      "bin": "BL",
+      "value": 103.3,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-D264",
+      "bin": "AX",
+      "value": 13.91,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D265",
+      "bin": "GR",
+      "value": 339.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D266",
+      "bin": "BL",
+      "value": 408.8,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-D267",
+      "bin": "AX",
+      "value": 439.17,
+      "category": "omega"
+    },
+    {
+      "ref": "BL-D268",
+      "bin": "BL",
+      "value": 283.29,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D269",
+      "bin": "GR",
+      "value": 214.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D270",
+      "bin": "AX",
+      "value": 296.11,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D271",
+      "bin": "AX",
+      "value": 477.62,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D272",
+      "bin": "BL",
+      "value": 337.31,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D273",
+      "bin": "BL",
+      "value": 302.94,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-D274",
+      "bin": "GR",
+      "value": 481.83,
+      "category": "zeta"
+    },
+    {
+      "ref": "BL-D275",
+      "bin": "BL",
+      "value": 131.22,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D276",
+      "bin": "BL",
+      "value": -151.52,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D277",
+      "bin": "BL",
+      "value": 421.66,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-D278",
+      "bin": "AX",
+      "value": 125.08,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D279",
+      "bin": "BL",
+      "value": 39.79,
+      "category": "epsilon"
+    },
+    {
+      "ref": "BL-D280",
+      "bin": "BL",
+      "value": 201.78,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D281",
+      "bin": "BL",
+      "value": 457.06,
+      "category": "gamma"
+    }
+  ]
+}

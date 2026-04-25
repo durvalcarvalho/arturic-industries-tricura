@@ -1,0 +1,86 @@
+{
+  "session_id": "MDR-0030",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-12-17T12:01:00",
+  "entries": [
+    {
+      "ref": "AX-A377",
+      "bin": "AX",
+      "value": 383.58,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-A378",
+      "bin": "BL",
+      "value": 12.99,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A379",
+      "bin": "AX",
+      "value": 332.1,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A380",
+      "bin": "GR",
+      "value": 373.07,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A381",
+      "bin": "GR",
+      "value": 375.59,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A382",
+      "bin": "BL",
+      "value": 215.72,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A383",
+      "bin": "GR",
+      "value": 191.33,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A384",
+      "bin": "AX",
+      "value": 302.15,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A385",
+      "bin": "GR",
+      "value": 87.13,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A386",
+      "bin": "AX",
+      "value": 49.97,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A387",
+      "bin": "AX",
+      "value": 217.77,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A388",
+      "bin": "BL",
+      "value": 143.85,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A389",
+      "bin": "BL",
+      "value": 220.66,
+      "category": "gamma"
+    }
+  ]
+}

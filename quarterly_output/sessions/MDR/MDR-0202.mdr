@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0202",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-12-16T13:19:00",
+  "entries": [
+    {
+      "ref": "SP-C695",
+      "bin": "SP",
+      "value": 319.23,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C696",
+      "bin": "SP",
+      "value": 252.56,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C697",
+      "bin": "SP",
+      "value": 38.82,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C698",
+      "bin": "SP",
+      "value": 84.82,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C699",
+      "bin": "SP",
+      "value": 425.55,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C700",
+      "bin": "SP",
+      "value": 353.2,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C701",
+      "bin": "SP",
+      "value": 462.35,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C702",
+      "bin": "SP",
+      "value": 429.82,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C703",
+      "bin": "SP",
+      "value": 156.56,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C704",
+      "bin": "SP",
+      "value": 495.62,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C705",
+      "bin": "SP",
+      "value": 175.33,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C706",
+      "bin": "SP",
+      "value": 495.25,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C707",
+      "bin": "SP",
+      "value": 201.62,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C708",
+      "bin": "SP",
+      "value": 148.36,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C709",
+      "bin": "SP",
+      "value": 353.54,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C710",
+      "bin": "SP",
+      "value": 57.69,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C711",
+      "bin": "SP",
+      "value": 378.61,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C712",
+      "bin": "SP",
+      "value": 426.41,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C713",
+      "bin": "SP",
+      "value": 234.19,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C714",
+      "bin": "SP",
+      "value": 292.81,
+      "category": "delta"
+    }
+  ]
+}

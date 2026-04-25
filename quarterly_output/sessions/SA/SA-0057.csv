@@ -1,0 +1,8 @@
+session_id,processor,department,timestamp,ref,bin,output_metric,classification
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,SP-E092,SP,52.75,gamma
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,BL-E093,BL,206.65,beta
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,SP-E094,SP,69.3,beta
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,SP-E095,SP,289.51,beta
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,BL-E096,BL,333.33,gamma
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,BL-E097,BL,244.16,beta
+SA-0057,Clara.M,SA,2025-11-05T14:35:00,BL-E098,BL,66.77,alpha

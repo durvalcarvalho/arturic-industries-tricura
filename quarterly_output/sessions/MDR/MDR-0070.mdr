@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0070",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-22T15:29:00",
+  "entries": [
+    {
+      "ref": "GR-A929",
+      "bin": "GR",
+      "value": 272.6,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A930",
+      "bin": "BL",
+      "value": 161.07,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A931",
+      "bin": "GR",
+      "value": 54.31,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A932",
+      "bin": "AX",
+      "value": 351.47,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A933",
+      "bin": "GR",
+      "value": 419.6,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A934",
+      "bin": "GR",
+      "value": 54.69,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A935",
+      "bin": "BL",
+      "value": 204.16,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A936",
+      "bin": "AX",
+      "value": 156.43,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A937",
+      "bin": "GR",
+      "value": 476.53,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A938",
+      "bin": "AX",
+      "value": 376.56,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A939",
+      "bin": "GR",
+      "value": 236.4,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A940",
+      "bin": "GR",
+      "value": 15.86,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A941",
+      "bin": "GR",
+      "value": 107.09,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A942",
+      "bin": "BL",
+      "value": 346.28,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A943",
+      "bin": "AX",
+      "value": 297.2,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A944",
+      "bin": "GR",
+      "value": 498.61,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A945",
+      "bin": "AX",
+      "value": 227.28,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A946",
+      "bin": "GR",
+      "value": 453.49,
+      "category": "gamma"
+    }
+  ]
+}

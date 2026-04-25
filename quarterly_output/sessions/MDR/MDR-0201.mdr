@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0201",
+  "processor": "Cross.R",
+  "department": "MDR",
+  "timestamp": "2025-11-19T12:14:00",
+  "entries": [
+    {
+      "ref": "AX-C675",
+      "bin": "AX",
+      "value": 70.32,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C676",
+      "bin": "AX",
+      "value": 320.44,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C677",
+      "bin": "GR",
+      "value": 399.81,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C678",
+      "bin": "GR",
+      "value": 466.57,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C679",
+      "bin": "AX",
+      "value": 178.18,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C680",
+      "bin": "AX",
+      "value": 324.63,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C681",
+      "bin": "GR",
+      "value": 119.54,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C682",
+      "bin": "BL",
+      "value": 52.96,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C683",
+      "bin": "BL",
+      "value": 372.88,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C684",
+      "bin": "AX",
+      "value": 471.58,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C685",
+      "bin": "GR",
+      "value": 428.13,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C686",
+      "bin": "AX",
+      "value": 371.09,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C687",
+      "bin": "GR",
+      "value": 299.13,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C688",
+      "bin": "BL",
+      "value": 490.13,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C689",
+      "bin": "BL",
+      "value": 400.78,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C690",
+      "bin": "AX",
+      "value": 335.23,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C691",
+      "bin": "GR",
+      "value": 203.7,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C692",
+      "bin": "BL",
+      "value": 80.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C693",
+      "bin": "GR",
+      "value": 254.92,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C694",
+      "bin": "GR",
+      "value": 304.72,
+      "category": "beta"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "session_id": "MDR-0182",
+  "processor": "Dr.Voss",
+  "department": "WB",
+  "timestamp": "2025-12-19T11:15:00",
+  "entries": [
+    {
+      "ref": "SP-C455",
+      "bin": "SP",
+      "value": 110.61,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C456",
+      "bin": "SP",
+      "value": 414.78,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C457",
+      "bin": "SP",
+      "value": 187.78,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C458",
+      "bin": "SP",
+      "value": 185.36,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C459",
+      "bin": "SP",
+      "value": 79.78,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C460",
+      "bin": "SP",
+      "value": 105.26,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C461",
+      "bin": "SP",
+      "value": 31.51,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C462",
+      "bin": "SP",
+      "value": 107.57,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C463",
+      "bin": "SP",
+      "value": 95.33,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C464",
+      "bin": "SP",
+      "value": 362.23,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C465",
+      "bin": "SP",
+      "value": 425.29,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C466",
+      "bin": "SP",
+      "value": 97.49,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C467",
+      "bin": "SP",
+      "value": 96.28,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C468",
+      "bin": "SP",
+      "value": 456.22,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C469",
+      "bin": "SP",
+      "value": 417.41,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C470",
+      "bin": "SP",
+      "value": 195.67,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C471",
+      "bin": "SP",
+      "value": 175.81,
+      "category": "beta"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0109",
+  "processor": "Nora.K",
+  "department": "MDR",
+  "timestamp": "2025-10-07T11:07:00",
+  "entries": [
+    {
+      "ref": "BL-B477",
+      "bin": "BL",
+      "value": 17.38,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B478",
+      "bin": "AX",
+      "value": 68.63,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B479",
+      "bin": "GR",
+      "value": 484.73,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B480",
+      "bin": "AX",
+      "value": 302.14,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B481",
+      "bin": "GR",
+      "value": 131.87,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B482",
+      "bin": "GR",
+      "value": 346.11,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B483",
+      "bin": "AX",
+      "value": 39.43,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B484",
+      "bin": "AX",
+      "value": 85.42,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B485",
+      "bin": "GR",
+      "value": 249.04,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B486",
+      "bin": "AX",
+      "value": 396.4,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B487",
+      "bin": "BL",
+      "value": 369.26,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B488",
+      "bin": "AX",
+      "value": 195.11,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B489",
+      "bin": "BL",
+      "value": 450.34,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B490",
+      "bin": "AX",
+      "value": 224.38,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B491",
+      "bin": "AX",
+      "value": 351.55,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B492",
+      "bin": "AX",
+      "value": 101.45,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B493",
+      "bin": "BL",
+      "value": 368.88,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B494",
+      "bin": "AX",
+      "value": 458.09,
+      "category": "beta"
+    }
+  ]
+}

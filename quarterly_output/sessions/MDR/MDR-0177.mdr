@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0177",
+  "processor": "Nora.K",
+  "department": "HR",
+  "timestamp": "2025-10-22T11:34:00",
+  "entries": [
+    {
+      "ref": "GR-C373",
+      "bin": "GR",
+      "value": 10.49,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C374",
+      "bin": "AX",
+      "value": 151.73,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C375",
+      "bin": "GR",
+      "value": 39.49,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C376",
+      "bin": "BL",
+      "value": 302.96,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C377",
+      "bin": "BL",
+      "value": 422.79,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C378",
+      "bin": "AX",
+      "value": 421.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C379",
+      "bin": "GR",
+      "value": 89.09,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C380",
+      "bin": "BL",
+      "value": 53.96,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C381",
+      "bin": "GR",
+      "value": 365.29,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C382",
+      "bin": "BL",
+      "value": 113.32,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C383",
+      "bin": "AX",
+      "value": 473.25,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C384",
+      "bin": "AX",
+      "value": 231.83,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C385",
+      "bin": "AX",
+      "value": 491.68,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C386",
+      "bin": "GR",
+      "value": 235.3,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C387",
+      "bin": "GR",
+      "value": 457.87,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C388",
+      "bin": "AX",
+      "value": 461.91,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C389",
+      "bin": "GR",
+      "value": 451.71,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C390",
+      "bin": "BL",
+      "value": 282.34,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C391",
+      "bin": "BL",
+      "value": 273.68,
+      "category": "alpha"
+    }
+  ]
+}

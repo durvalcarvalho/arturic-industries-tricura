@@ -1,0 +1,68 @@
+{
+  "session_id": "MDR-0188",
+  "processor": "Nora.K",
+  "department": "MDR",
+  "timestamp": "2025-12-12T14:00:00",
+  "entries": [
+    {
+      "ref": "GR-C532",
+      "bin": "GR",
+      "value": 73.28,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C533",
+      "bin": "BL",
+      "value": 374.14,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C534",
+      "bin": "GR",
+      "value": 73.67,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C535",
+      "bin": "BL",
+      "value": 221.78,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C536",
+      "bin": "GR",
+      "value": 305.82,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C537",
+      "bin": "AX",
+      "value": 109.46,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C538",
+      "bin": "BL",
+      "value": 108.83,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C539",
+      "bin": "BL",
+      "value": 41.35,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C540",
+      "bin": "AX",
+      "value": 405.71,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C541",
+      "bin": "AX",
+      "value": 440.83,
+      "category": "delta"
+    }
+  ]
+}

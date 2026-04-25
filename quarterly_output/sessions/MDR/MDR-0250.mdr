@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0250",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-10-17T12:03:00",
+  "entries": [
+    {
+      "ref": "GR-D363",
+      "bin": "GR",
+      "value": 1903.84,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-D364",
+      "bin": "GR",
+      "value": 489.85,
+      "category": "zeta"
+    },
+    {
+      "ref": "BL-D365",
+      "bin": "BL",
+      "value": -113.82,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D366",
+      "bin": "AX",
+      "value": 346.65,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D367",
+      "bin": "BL",
+      "value": "---",
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D368",
+      "bin": "GR",
+      "value": 1363.03,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D369",
+      "bin": "BL",
+      "value": 116.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "NV-D371",
+      "bin": "NV",
+      "value": 332.58,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D372",
+      "bin": "BL",
+      "value": "ERROR",
+      "category": "delta"
+    },
+    {
+      "ref": "ZZ-D374",
+      "bin": "ZZ",
+      "value": 185.85,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D375",
+      "bin": "BL",
+      "value": 174.97,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D376",
+      "bin": "BL",
+      "value": 4008.18,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-D377",
+      "bin": "AX",
+      "value": 233.66,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D378",
+      "bin": "BL",
+      "value": 418.71,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D379",
+      "bin": "AX",
+      "value": 175.56,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-D380",
+      "bin": "AX",
+      "value": 62.85,
+      "category": "epsilon"
+    },
+    {
+      "ref": "BL-D381",
+      "bin": "BL",
+      "value": 300.61,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D382",
+      "bin": "BL",
+      "value": 444.43,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-D383",
+      "bin": "AX",
+      "value": 378.41,
+      "category": "beta"
+    }
+  ]
+}

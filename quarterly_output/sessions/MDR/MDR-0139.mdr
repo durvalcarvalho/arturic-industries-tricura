@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0139",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-12-18T08:38:00",
+  "entries": [
+    {
+      "ref": "AX-B866",
+      "bin": "AX",
+      "value": 475.65,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B867",
+      "bin": "BL",
+      "value": 215.21,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B868",
+      "bin": "GR",
+      "value": 67.58,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B869",
+      "bin": "AX",
+      "value": 187.33,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B870",
+      "bin": "BL",
+      "value": 387.46,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B871",
+      "bin": "BL",
+      "value": 36.0,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B872",
+      "bin": "GR",
+      "value": 345.77,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B873",
+      "bin": "BL",
+      "value": 96.4,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B874",
+      "bin": "GR",
+      "value": 325.98,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B875",
+      "bin": "GR",
+      "value": 222.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B876",
+      "bin": "AX",
+      "value": 404.53,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B877",
+      "bin": "GR",
+      "value": 61.17,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B878",
+      "bin": "AX",
+      "value": 96.18,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B879",
+      "bin": "BL",
+      "value": 262.3,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B880",
+      "bin": "GR",
+      "value": 363.49,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B881",
+      "bin": "BL",
+      "value": 107.39,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B882",
+      "bin": "GR",
+      "value": 391.7,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B883",
+      "bin": "GR",
+      "value": 58.05,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B884",
+      "bin": "GR",
+      "value": 194.01,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B885",
+      "bin": "GR",
+      "value": 240.79,
+      "category": "delta"
+    }
+  ]
+}

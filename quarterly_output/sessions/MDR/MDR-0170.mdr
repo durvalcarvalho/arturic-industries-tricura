@@ -1,0 +1,50 @@
+{
+  "session_id": "MDR-0170",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-29T12:45:00",
+  "entries": [
+    {
+      "ref": "GR-F285",
+      "bin": "GR",
+      "value": 999.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-F286",
+      "bin": "AX",
+      "value": 69.44,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-F287",
+      "bin": "AX",
+      "value": 128.8,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-F288",
+      "bin": "BL",
+      "value": 293.38,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-F289",
+      "bin": "GR",
+      "value": 291.71,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-F290",
+      "bin": "BL",
+      "value": 139.26,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-F291",
+      "bin": "GR",
+      "value": 120.02,
+      "category": "gamma"
+    }
+  ]
+}

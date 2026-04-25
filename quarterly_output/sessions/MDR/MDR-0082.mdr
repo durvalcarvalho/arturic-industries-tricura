@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0082",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-11-07T15:46:00",
+  "entries": [
+    {
+      "ref": "AX-B116",
+      "bin": "AX",
+      "value": 497.78,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B117",
+      "bin": "BL",
+      "value": 186.03,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B118",
+      "bin": "GR",
+      "value": 474.56,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B119",
+      "bin": "GR",
+      "value": 121.92,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B120",
+      "bin": "GR",
+      "value": 369.7,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B121",
+      "bin": "GR",
+      "value": 189.63,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B122",
+      "bin": "BL",
+      "value": 439.51,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B123",
+      "bin": "AX",
+      "value": 315.34,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B124",
+      "bin": "AX",
+      "value": 62.98,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B125",
+      "bin": "GR",
+      "value": 347.98,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B126",
+      "bin": "BL",
+      "value": 196.32,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B127",
+      "bin": "BL",
+      "value": 353.92,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B128",
+      "bin": "AX",
+      "value": 346.01,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B129",
+      "bin": "BL",
+      "value": 216.23,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B130",
+      "bin": "AX",
+      "value": 264.95,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B131",
+      "bin": "BL",
+      "value": 417.02,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B132",
+      "bin": "AX",
+      "value": 362.2,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B133",
+      "bin": "BL",
+      "value": 65.87,
+      "category": "alpha"
+    }
+  ]
+}

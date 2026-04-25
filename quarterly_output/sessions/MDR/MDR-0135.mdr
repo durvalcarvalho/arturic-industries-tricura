@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0135",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-07T15:42:00",
+  "entries": [
+    {
+      "ref": "BL-B808",
+      "bin": "BL",
+      "value": 386.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B809",
+      "bin": "BL",
+      "value": 89.36,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B810",
+      "bin": "BL",
+      "value": 390.78,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B811",
+      "bin": "BL",
+      "value": 173.0,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B812",
+      "bin": "BL",
+      "value": 478.25,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B813",
+      "bin": "GR",
+      "value": 225.88,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B814",
+      "bin": "GR",
+      "value": 309.05,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B815",
+      "bin": "AX",
+      "value": 251.11,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B816",
+      "bin": "AX",
+      "value": 386.67,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B817",
+      "bin": "AX",
+      "value": 325.24,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B818",
+      "bin": "AX",
+      "value": 136.91,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B819",
+      "bin": "GR",
+      "value": 44.5,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B820",
+      "bin": "BL",
+      "value": 19.19,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B821",
+      "bin": "GR",
+      "value": 329.9,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B822",
+      "bin": "GR",
+      "value": 335.66,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B823",
+      "bin": "GR",
+      "value": 353.03,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B824",
+      "bin": "AX",
+      "value": 11.81,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B825",
+      "bin": "BL",
+      "value": 223.67,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B826",
+      "bin": "AX",
+      "value": 120.66,
+      "category": "delta"
+    }
+  ]
+}

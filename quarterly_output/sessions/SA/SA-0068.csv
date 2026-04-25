@@ -1,0 +1,7 @@
+session_id,processor,department,timestamp,ref,bin,output_metric,classification
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,SP-E229,SP,158.43,beta
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,SP-E230,SP,215.0,beta
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,BL-E231,BL,401.74,beta
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,BL-E232,BL,278.06,gamma
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,SP-E233,SP,10.28,alpha
+SA-0068,Clara.M,SA,2026-01-29T11:00:00,SP-E234,SP,430.83,gamma

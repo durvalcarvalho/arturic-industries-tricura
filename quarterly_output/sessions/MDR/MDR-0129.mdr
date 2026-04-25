@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0129",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-19T09:21:00",
+  "entries": [
+    {
+      "ref": "BL-B728",
+      "bin": "BL",
+      "value": 287.93,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B729",
+      "bin": "AX",
+      "value": 350.13,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B730",
+      "bin": "AX",
+      "value": 338.11,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B731",
+      "bin": "GR",
+      "value": 300.16,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B732",
+      "bin": "BL",
+      "value": 281.99,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B733",
+      "bin": "GR",
+      "value": 160.94,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B734",
+      "bin": "GR",
+      "value": 303.15,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B735",
+      "bin": "BL",
+      "value": 252.2,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B736",
+      "bin": "GR",
+      "value": 116.63,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B737",
+      "bin": "AX",
+      "value": 452.6,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B738",
+      "bin": "GR",
+      "value": 333.83,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B739",
+      "bin": "AX",
+      "value": 152.84,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B740",
+      "bin": "GR",
+      "value": 110.77,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B741",
+      "bin": "BL",
+      "value": 289.44,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B742",
+      "bin": "BL",
+      "value": 361.72,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B743",
+      "bin": "GR",
+      "value": 295.54,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B744",
+      "bin": "GR",
+      "value": 427.73,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B745",
+      "bin": "BL",
+      "value": 451.53,
+      "category": "alpha"
+    }
+  ]
+}

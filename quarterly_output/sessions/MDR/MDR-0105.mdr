@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0105",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-10-08T11:52:00",
+  "entries": [
+    {
+      "ref": "AX-B412",
+      "bin": "AX",
+      "value": 57.19,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B413",
+      "bin": "BL",
+      "value": 186.87,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B414",
+      "bin": "BL",
+      "value": 19.72,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B415",
+      "bin": "BL",
+      "value": 435.01,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B416",
+      "bin": "AX",
+      "value": 292.19,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B417",
+      "bin": "BL",
+      "value": 184.0,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B418",
+      "bin": "AX",
+      "value": 229.0,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B419",
+      "bin": "BL",
+      "value": 310.7,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B420",
+      "bin": "AX",
+      "value": 478.73,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B421",
+      "bin": "AX",
+      "value": 405.78,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B422",
+      "bin": "BL",
+      "value": 319.32,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B423",
+      "bin": "GR",
+      "value": 48.76,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B424",
+      "bin": "GR",
+      "value": 163.61,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B425",
+      "bin": "AX",
+      "value": 141.06,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B426",
+      "bin": "BL",
+      "value": 444.97,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B427",
+      "bin": "AX",
+      "value": 297.59,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B428",
+      "bin": "BL",
+      "value": 91.99,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B429",
+      "bin": "GR",
+      "value": 366.61,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B430",
+      "bin": "AX",
+      "value": 353.34,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B431",
+      "bin": "GR",
+      "value": 91.79,
+      "category": "alpha"
+    }
+  ]
+}

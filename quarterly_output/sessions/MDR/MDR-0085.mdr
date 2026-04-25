@@ -1,0 +1,62 @@
+{
+  "session_id": "MDR-0085",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-12-18T08:55:00",
+  "entries": [
+    {
+      "ref": "BL-B157",
+      "bin": "BL",
+      "value": 461.0,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B158",
+      "bin": "BL",
+      "value": 225.94,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B159",
+      "bin": "BL",
+      "value": 330.94,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B160",
+      "bin": "AX",
+      "value": 435.48,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B161",
+      "bin": "AX",
+      "value": 437.84,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B162",
+      "bin": "BL",
+      "value": 334.24,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B163",
+      "bin": "BL",
+      "value": 179.42,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-B164",
+      "bin": "GR",
+      "value": 421.13,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B165",
+      "bin": "GR",
+      "value": 325.27,
+      "category": "beta"
+    }
+  ]
+}

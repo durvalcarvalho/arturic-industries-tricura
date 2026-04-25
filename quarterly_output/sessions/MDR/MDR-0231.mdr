@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0231",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-11-18T09:17:00",
+  "entries": [
+    {
+      "ref": "BL-D090",
+      "bin": "BL",
+      "value": 493.79,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D091",
+      "bin": "BL",
+      "value": 4781.07,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-D092",
+      "bin": "GR",
+      "value": 293.96,
+      "category": "omega"
+    },
+    {
+      "ref": "BL-D093",
+      "bin": "BL",
+      "value": 287.66,
+      "category": "gamma"
+    },
+    {
+      "ref": "NV-D095",
+      "bin": "NV",
+      "value": 464.34,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-D096",
+      "bin": "AX",
+      "value": 483.67,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D097",
+      "bin": "GR",
+      "value": 2815.43,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-D098",
+      "bin": "GR",
+      "value": "ERROR",
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D099",
+      "bin": "AX",
+      "value": 418.71,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D100",
+      "bin": "BL",
+      "value": 4814.74,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D101",
+      "bin": "GR",
+      "value": 498.0,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-D102",
+      "bin": "GR",
+      "value": 152.49,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D103",
+      "bin": "BL",
+      "value": 131.88,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-D104",
+      "bin": "GR",
+      "value": 447.59,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-D105",
+      "bin": "GR",
+      "value": 286.31,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-D106",
+      "bin": "GR",
+      "value": 344.83,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-D107",
+      "bin": "AX",
+      "value": -457.2,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D108",
+      "bin": "AX",
+      "value": 235.97,
+      "category": "beta"
+    }
+  ]
+}

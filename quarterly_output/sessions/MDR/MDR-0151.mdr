@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0151",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-24T11:32:00",
+  "entries": [
+    {
+      "ref": "GR-C033",
+      "bin": "GR",
+      "value": 383.09,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C034",
+      "bin": "GR",
+      "value": 238.29,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C035",
+      "bin": "BL",
+      "value": 383.51,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C036",
+      "bin": "AX",
+      "value": 363.85,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C037",
+      "bin": "BL",
+      "value": 251.92,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C038",
+      "bin": "BL",
+      "value": 233.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C039",
+      "bin": "AX",
+      "value": 488.33,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C040",
+      "bin": "GR",
+      "value": 281.42,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C041",
+      "bin": "BL",
+      "value": 102.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C042",
+      "bin": "BL",
+      "value": 470.15,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C043",
+      "bin": "GR",
+      "value": 16.27,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C044",
+      "bin": "AX",
+      "value": 61.53,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C045",
+      "bin": "AX",
+      "value": 332.69,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C046",
+      "bin": "GR",
+      "value": 80.25,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C047",
+      "bin": "AX",
+      "value": 299.37,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C048",
+      "bin": "AX",
+      "value": 463.39,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C049",
+      "bin": "GR",
+      "value": 188.22,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C050",
+      "bin": "BL",
+      "value": 108.13,
+      "category": "delta"
+    }
+  ]
+}

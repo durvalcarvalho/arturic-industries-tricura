@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0128",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-10-14T14:03:00",
+  "entries": [
+    {
+      "ref": "BL-B710",
+      "bin": "BL",
+      "value": 97.7,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B711",
+      "bin": "AX",
+      "value": 184.26,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B712",
+      "bin": "GR",
+      "value": 359.32,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B713",
+      "bin": "BL",
+      "value": 288.22,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B714",
+      "bin": "AX",
+      "value": 239.46,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B715",
+      "bin": "BL",
+      "value": 345.39,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B716",
+      "bin": "BL",
+      "value": 123.53,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B717",
+      "bin": "GR",
+      "value": 431.94,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B718",
+      "bin": "BL",
+      "value": 202.12,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B719",
+      "bin": "BL",
+      "value": 232.11,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B720",
+      "bin": "GR",
+      "value": 242.91,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B721",
+      "bin": "BL",
+      "value": 236.01,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-B722",
+      "bin": "BL",
+      "value": 386.29,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B723",
+      "bin": "AX",
+      "value": 60.44,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B724",
+      "bin": "BL",
+      "value": 282.51,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-B725",
+      "bin": "BL",
+      "value": 271.05,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B726",
+      "bin": "AX",
+      "value": 212.59,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B727",
+      "bin": "AX",
+      "value": 87.92,
+      "category": "delta"
+    }
+  ]
+}

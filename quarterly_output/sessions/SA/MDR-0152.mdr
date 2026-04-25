@@ -1,0 +1,74 @@
+{
+  "session_id": "MDR-0152",
+  "processor": "Clara.M",
+  "department": "SA",
+  "timestamp": "2025-11-13T11:53:00",
+  "entries": [
+    {
+      "ref": "SP-F334",
+      "bin": "SP",
+      "value": 390.19,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-F335",
+      "bin": "BL",
+      "value": 132.07,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-F336",
+      "bin": "SP",
+      "value": 146.22,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-F337",
+      "bin": "SP",
+      "value": 37.46,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-F338",
+      "bin": "SP",
+      "value": 370.01,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-F339",
+      "bin": "BL",
+      "value": 93.61,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-F340",
+      "bin": "SP",
+      "value": 142.72,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-F341",
+      "bin": "SP",
+      "value": 72.26,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-F342",
+      "bin": "BL",
+      "value": 43.37,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-F343",
+      "bin": "SP",
+      "value": 232.57,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-F344",
+      "bin": "SP",
+      "value": 334.34,
+      "category": "beta"
+    }
+  ]
+}

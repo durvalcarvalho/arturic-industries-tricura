@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0153",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-12-02T09:36:00",
+  "entries": [
+    {
+      "ref": "AX-C071",
+      "bin": "AX",
+      "value": 281.35,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C072",
+      "bin": "BL",
+      "value": 285.51,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C073",
+      "bin": "AX",
+      "value": 37.31,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C074",
+      "bin": "BL",
+      "value": 299.61,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C075",
+      "bin": "AX",
+      "value": 341.48,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C076",
+      "bin": "BL",
+      "value": 40.1,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C077",
+      "bin": "GR",
+      "value": 420.1,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C078",
+      "bin": "AX",
+      "value": 296.14,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C079",
+      "bin": "BL",
+      "value": 57.7,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C080",
+      "bin": "BL",
+      "value": 211.85,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C081",
+      "bin": "AX",
+      "value": 129.67,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C082",
+      "bin": "AX",
+      "value": 162.93,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C083",
+      "bin": "AX",
+      "value": 42.1,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C084",
+      "bin": "GR",
+      "value": 175.42,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C085",
+      "bin": "AX",
+      "value": 169.8,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C086",
+      "bin": "AX",
+      "value": 433.05,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C087",
+      "bin": "BL",
+      "value": 20.0,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C088",
+      "bin": "AX",
+      "value": 20.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C089",
+      "bin": "BL",
+      "value": 289.47,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C090",
+      "bin": "AX",
+      "value": 57.89,
+      "category": "delta"
+    }
+  ]
+}

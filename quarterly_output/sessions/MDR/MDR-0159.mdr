@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0159",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-12-16T14:50:00",
+  "entries": [
+    {
+      "ref": "BL-C152",
+      "bin": "BL",
+      "value": 438.02,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C153",
+      "bin": "BL",
+      "value": 95.0,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C154",
+      "bin": "BL",
+      "value": 107.35,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C155",
+      "bin": "BL",
+      "value": 99.13,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C156",
+      "bin": "AX",
+      "value": 120.0,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C157",
+      "bin": "AX",
+      "value": 327.08,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C158",
+      "bin": "GR",
+      "value": 487.32,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C159",
+      "bin": "BL",
+      "value": 353.62,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C160",
+      "bin": "GR",
+      "value": 206.51,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C161",
+      "bin": "AX",
+      "value": 137.48,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C162",
+      "bin": "BL",
+      "value": 93.36,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C163",
+      "bin": "GR",
+      "value": 362.11,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C164",
+      "bin": "BL",
+      "value": 415.36,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C165",
+      "bin": "GR",
+      "value": 120.0,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C166",
+      "bin": "GR",
+      "value": 473.57,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C167",
+      "bin": "BL",
+      "value": 375.76,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C168",
+      "bin": "GR",
+      "value": 221.34,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C169",
+      "bin": "AX",
+      "value": 115.63,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C170",
+      "bin": "AX",
+      "value": 341.82,
+      "category": "delta"
+    }
+  ]
+}

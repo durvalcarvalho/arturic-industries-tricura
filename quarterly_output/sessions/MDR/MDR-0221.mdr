@@ -1,0 +1,128 @@
+{
+  "session_id": "MDR-0221",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-12-04T10:01:00",
+  "entries": [
+    {
+      "ref": "AX-C936",
+      "bin": "AX",
+      "value": 435.72,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C937",
+      "bin": "AX",
+      "value": 236.92,
+      "category": "sigma"
+    },
+    {
+      "ref": "AX-C938",
+      "bin": "AX",
+      "value": 330.57,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C939",
+      "bin": "AX",
+      "value": 262.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C940",
+      "bin": "GR",
+      "value": 176.12,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C941",
+      "bin": "BL",
+      "value": 29.61,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C942",
+      "bin": "AX",
+      "value": "---",
+      "category": "beta"
+    },
+    {
+      "ref": "XX-C944",
+      "bin": "XX",
+      "value": 385.5,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C945",
+      "bin": "BL",
+      "value": 163.72,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C946",
+      "bin": "AX",
+      "value": 1284.54,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C947",
+      "bin": "BL",
+      "value": 136.39,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C948",
+      "bin": "BL",
+      "value": 328.64,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C949",
+      "bin": "AX",
+      "value": 249.25,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C950",
+      "bin": "BL",
+      "value": 210.43,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C951",
+      "bin": "AX",
+      "value": 423.97,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C952",
+      "bin": "AX",
+      "value": 212.47,
+      "category": "delta"
+    },
+    {
+      "ref": "ZZ-C954",
+      "bin": "ZZ",
+      "value": 488.94,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C955",
+      "bin": "AX",
+      "value": 13.89,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C956",
+      "bin": "AX",
+      "value": 205.65,
+      "category": "sigma"
+    },
+    {
+      "ref": "BL-C957",
+      "bin": "BL",
+      "value": 337.88,
+      "category": "gamma"
+    }
+  ]
+}

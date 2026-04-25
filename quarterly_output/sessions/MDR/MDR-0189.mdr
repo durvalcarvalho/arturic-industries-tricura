@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0189",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-01T10:57:00",
+  "entries": [
+    {
+      "ref": "BL-C542",
+      "bin": "BL",
+      "value": 198.49,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C543",
+      "bin": "AX",
+      "value": 288.62,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C544",
+      "bin": "AX",
+      "value": 473.39,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C545",
+      "bin": "GR",
+      "value": 144.15,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C546",
+      "bin": "AX",
+      "value": 458.99,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C547",
+      "bin": "BL",
+      "value": 211.53,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C548",
+      "bin": "BL",
+      "value": 47.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C549",
+      "bin": "AX",
+      "value": 385.6,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C550",
+      "bin": "BL",
+      "value": 230.96,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C551",
+      "bin": "GR",
+      "value": 257.97,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C552",
+      "bin": "GR",
+      "value": 45.87,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C553",
+      "bin": "BL",
+      "value": 178.39,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C554",
+      "bin": "GR",
+      "value": 204.37,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C555",
+      "bin": "BL",
+      "value": 66.19,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C556",
+      "bin": "BL",
+      "value": 338.44,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C557",
+      "bin": "BL",
+      "value": 236.06,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C558",
+      "bin": "AX",
+      "value": 331.94,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C559",
+      "bin": "GR",
+      "value": 240.69,
+      "category": "gamma"
+    }
+  ]
+}

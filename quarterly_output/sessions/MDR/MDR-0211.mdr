@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0211",
+  "processor": "Harmon.D",
+  "department": "MDR",
+  "timestamp": "2025-12-22T16:52:00",
+  "entries": [
+    {
+      "ref": "AX-C800",
+      "bin": "AX",
+      "value": 425.69,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C801",
+      "bin": "BL",
+      "value": 12.89,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C802",
+      "bin": "BL",
+      "value": 156.19,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C803",
+      "bin": "GR",
+      "value": 181.36,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C804",
+      "bin": "BL",
+      "value": 183.72,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C805",
+      "bin": "BL",
+      "value": 251.1,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C806",
+      "bin": "AX",
+      "value": 262.02,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C807",
+      "bin": "BL",
+      "value": 70.68,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C808",
+      "bin": "GR",
+      "value": 86.26,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C809",
+      "bin": "GR",
+      "value": 240.64,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C810",
+      "bin": "BL",
+      "value": 188.6,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C811",
+      "bin": "AX",
+      "value": 407.66,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C812",
+      "bin": "BL",
+      "value": 331.58,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C813",
+      "bin": "GR",
+      "value": 78.54,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C814",
+      "bin": "GR",
+      "value": 186.03,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C815",
+      "bin": "GR",
+      "value": 102.89,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C816",
+      "bin": "GR",
+      "value": 203.33,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C817",
+      "bin": "GR",
+      "value": 88.55,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C818",
+      "bin": "BL",
+      "value": 480.25,
+      "category": "gamma"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0241",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-12-04T10:36:00",
+  "entries": [
+    {
+      "ref": "GR-D233",
+      "bin": "GR",
+      "value": 450.94,
+      "category": "delta"
+    },
+    {
+      "ref": "XX-D235",
+      "bin": "XX",
+      "value": 139.05,
+      "category": "delta"
+    },
+    {
+      "ref": "XX-D237",
+      "bin": "XX",
+      "value": 21.73,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D238",
+      "bin": "BL",
+      "value": "N/A",
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D239",
+      "bin": "AX",
+      "value": 128.3,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-D240",
+      "bin": "AX",
+      "value": 4976.54,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-D241",
+      "bin": "BL",
+      "value": 3962.79,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-D242",
+      "bin": "BL",
+      "value": 353.06,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-D243",
+      "bin": "AX",
+      "value": 459.01,
+      "category": "alpha"
+    },
+    {
+      "ref": "NV-D245",
+      "bin": "NV",
+      "value": 300.59,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-D246",
+      "bin": "AX",
+      "value": 364.04,
+      "category": "omega"
+    },
+    {
+      "ref": "BL-D247",
+      "bin": "BL",
+      "value": -357.37,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-D248",
+      "bin": "GR",
+      "value": 477.22,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-D249",
+      "bin": "AX",
+      "value": 442.37,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-D250",
+      "bin": "BL",
+      "value": 291.82,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-D251",
+      "bin": "GR",
+      "value": 2946.54,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-D252",
+      "bin": "BL",
+      "value": 470.21,
+      "category": "omega"
+    },
+    {
+      "ref": "AX-D253",
+      "bin": "AX",
+      "value": 146.53,
+      "category": "alpha"
+    }
+  ]
+}

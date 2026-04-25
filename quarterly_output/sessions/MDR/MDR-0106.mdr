@@ -1,0 +1,44 @@
+{
+  "session_id": "MDR-0106",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-10-13T09:59:00",
+  "entries": [
+    {
+      "ref": "GR-B432",
+      "bin": "GR",
+      "value": 387.76,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B433",
+      "bin": "GR",
+      "value": 138.6,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-B434",
+      "bin": "GR",
+      "value": 330.87,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B435",
+      "bin": "BL",
+      "value": 122.38,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B436",
+      "bin": "BL",
+      "value": 316.98,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-B437",
+      "bin": "AX",
+      "value": 420.87,
+      "category": "alpha"
+    }
+  ]
+}

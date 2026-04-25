@@ -1,0 +1,122 @@
+{
+  "session_id": "MDR-0043",
+  "processor": "Arthur.B",
+  "department": "MDR",
+  "timestamp": "2025-12-10T12:04:00",
+  "entries": [
+    {
+      "ref": "AX-A561",
+      "bin": "AX",
+      "value": 147.06,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A562",
+      "bin": "GR",
+      "value": 487.79,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-A563",
+      "bin": "BL",
+      "value": 399.5,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A564",
+      "bin": "AX",
+      "value": 470.08,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A565",
+      "bin": "GR",
+      "value": 305.21,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A566",
+      "bin": "AX",
+      "value": 29.72,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-A567",
+      "bin": "GR",
+      "value": 359.66,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A568",
+      "bin": "AX",
+      "value": 233.92,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-A569",
+      "bin": "BL",
+      "value": 466.37,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-A570",
+      "bin": "GR",
+      "value": 202.55,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-A571",
+      "bin": "AX",
+      "value": 174.82,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-A572",
+      "bin": "AX",
+      "value": 285.83,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A573",
+      "bin": "GR",
+      "value": 190.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-A574",
+      "bin": "BL",
+      "value": 296.01,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-A575",
+      "bin": "AX",
+      "value": 242.55,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-A576",
+      "bin": "AX",
+      "value": 35.16,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A577",
+      "bin": "GR",
+      "value": 266.87,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-A578",
+      "bin": "GR",
+      "value": 412.61,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-A579",
+      "bin": "GR",
+      "value": 290.56,
+      "category": "alpha"
+    }
+  ]
+}

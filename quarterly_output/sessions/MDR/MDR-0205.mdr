@@ -1,0 +1,56 @@
+{
+  "session_id": "MDR-0205",
+  "processor": "Cross.R",
+  "department": "MDR",
+  "timestamp": "2025-10-01T16:28:00",
+  "entries": [
+    {
+      "ref": "GR-C738",
+      "bin": "GR",
+      "value": 73.12,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C739",
+      "bin": "AX",
+      "value": 88.99,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-C740",
+      "bin": "GR",
+      "value": 51.46,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C741",
+      "bin": "AX",
+      "value": 156.3,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C742",
+      "bin": "BL",
+      "value": 488.78,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-C743",
+      "bin": "GR",
+      "value": 157.29,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-C744",
+      "bin": "AX",
+      "value": 271.71,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C745",
+      "bin": "AX",
+      "value": 250.32,
+      "category": "gamma"
+    }
+  ]
+}

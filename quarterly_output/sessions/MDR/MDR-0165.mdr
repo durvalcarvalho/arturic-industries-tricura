@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0165",
+  "processor": "Lena.P",
+  "department": "HR",
+  "timestamp": "2025-11-17T17:11:00",
+  "entries": [
+    {
+      "ref": "GR-C224",
+      "bin": "GR",
+      "value": 29.81,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C225",
+      "bin": "BL",
+      "value": 341.46,
+      "category": "beta"
+    },
+    {
+      "ref": "BL-C226",
+      "bin": "BL",
+      "value": 268.37,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C227",
+      "bin": "BL",
+      "value": 239.43,
+      "category": "alpha"
+    },
+    {
+      "ref": "BL-C228",
+      "bin": "BL",
+      "value": 157.19,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C229",
+      "bin": "AX",
+      "value": 452.42,
+      "category": "beta"
+    },
+    {
+      "ref": "AX-C230",
+      "bin": "AX",
+      "value": 219.59,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C231",
+      "bin": "AX",
+      "value": 47.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C232",
+      "bin": "AX",
+      "value": 62.74,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-C233",
+      "bin": "BL",
+      "value": 56.3,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C234",
+      "bin": "BL",
+      "value": 134.88,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-C235",
+      "bin": "AX",
+      "value": 17.97,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C236",
+      "bin": "GR",
+      "value": 395.23,
+      "category": "delta"
+    },
+    {
+      "ref": "GR-C237",
+      "bin": "GR",
+      "value": 50.81,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C238",
+      "bin": "BL",
+      "value": 297.73,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-C239",
+      "bin": "AX",
+      "value": 230.47,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-C240",
+      "bin": "BL",
+      "value": 483.69,
+      "category": "beta"
+    },
+    {
+      "ref": "GR-C241",
+      "bin": "GR",
+      "value": 100.69,
+      "category": "gamma"
+    }
+  ]
+}

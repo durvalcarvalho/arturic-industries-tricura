@@ -1,0 +1,62 @@
+{
+  "session_id": "MDR-0207",
+  "processor": "Dr.Voss",
+  "department": "WB",
+  "timestamp": "2025-11-21T15:05:00",
+  "entries": [
+    {
+      "ref": "SP-C752",
+      "bin": "SP",
+      "value": 272.59,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C753",
+      "bin": "SP",
+      "value": 318.49,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C754",
+      "bin": "SP",
+      "value": 497.73,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C755",
+      "bin": "SP",
+      "value": 360.08,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C756",
+      "bin": "SP",
+      "value": 215.65,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C757",
+      "bin": "SP",
+      "value": 165.02,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C758",
+      "bin": "SP",
+      "value": 195.68,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C759",
+      "bin": "SP",
+      "value": 47.99,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C760",
+      "bin": "SP",
+      "value": 270.42,
+      "category": "delta"
+    }
+  ]
+}

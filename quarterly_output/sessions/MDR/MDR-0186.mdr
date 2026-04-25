@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0186",
+  "processor": "Lena.P",
+  "department": "MDR",
+  "timestamp": "2025-11-13T09:20:00",
+  "entries": [
+    {
+      "ref": "SP-C509",
+      "bin": "SP",
+      "value": 112.7,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C510",
+      "bin": "SP",
+      "value": 427.94,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C511",
+      "bin": "SP",
+      "value": 193.6,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C512",
+      "bin": "SP",
+      "value": 159.73,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C513",
+      "bin": "SP",
+      "value": 254.9,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C514",
+      "bin": "SP",
+      "value": 176.51,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C515",
+      "bin": "SP",
+      "value": 218.6,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C516",
+      "bin": "SP",
+      "value": 383.79,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C517",
+      "bin": "SP",
+      "value": 169.78,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C518",
+      "bin": "SP",
+      "value": 288.11,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C519",
+      "bin": "SP",
+      "value": 461.85,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C520",
+      "bin": "SP",
+      "value": 488.85,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C521",
+      "bin": "SP",
+      "value": 288.41,
+      "category": "delta"
+    },
+    {
+      "ref": "SP-C522",
+      "bin": "SP",
+      "value": 490.28,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C523",
+      "bin": "SP",
+      "value": 474.86,
+      "category": "alpha"
+    },
+    {
+      "ref": "SP-C524",
+      "bin": "SP",
+      "value": 271.9,
+      "category": "beta"
+    },
+    {
+      "ref": "SP-C525",
+      "bin": "SP",
+      "value": 242.64,
+      "category": "gamma"
+    },
+    {
+      "ref": "SP-C526",
+      "bin": "SP",
+      "value": 289.06,
+      "category": "delta"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "session_id": "MDR-0131",
+  "processor": "James.L",
+  "department": "MDR",
+  "timestamp": "2025-11-25T10:05:00",
+  "entries": [
+    {
+      "ref": "BL-B754",
+      "bin": "BL",
+      "value": 447.86,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B755",
+      "bin": "AX",
+      "value": 98.1,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B756",
+      "bin": "AX",
+      "value": 411.83,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B757",
+      "bin": "BL",
+      "value": 120.61,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B758",
+      "bin": "AX",
+      "value": 13.64,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B759",
+      "bin": "AX",
+      "value": 126.01,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B760",
+      "bin": "BL",
+      "value": 464.02,
+      "category": "gamma"
+    },
+    {
+      "ref": "GR-B761",
+      "bin": "GR",
+      "value": 489.33,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B762",
+      "bin": "AX",
+      "value": 190.6,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B763",
+      "bin": "AX",
+      "value": 49.23,
+      "category": "gamma"
+    },
+    {
+      "ref": "BL-B764",
+      "bin": "BL",
+      "value": 263.31,
+      "category": "alpha"
+    },
+    {
+      "ref": "GR-B765",
+      "bin": "GR",
+      "value": 241.5,
+      "category": "alpha"
+    },
+    {
+      "ref": "AX-B766",
+      "bin": "AX",
+      "value": 320.51,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B767",
+      "bin": "AX",
+      "value": 35.86,
+      "category": "gamma"
+    },
+    {
+      "ref": "AX-B768",
+      "bin": "AX",
+      "value": 391.48,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B769",
+      "bin": "BL",
+      "value": 261.2,
+      "category": "delta"
+    },
+    {
+      "ref": "AX-B770",
+      "bin": "AX",
+      "value": 369.57,
+      "category": "delta"
+    },
+    {
+      "ref": "BL-B771",
+      "bin": "BL",
+      "value": 480.68,
+      "category": "gamma"
+    }
+  ]
+}
