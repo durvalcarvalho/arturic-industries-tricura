@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 _BASE64_RE = re.compile(r"^[A-Za-z0-9+/]+={0,2}$")
+_DEFAULT_SESSION_FILE = Path("quarterly_output/sessions/MDR/MDR-0156.mdr")
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -22,8 +23,13 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "session_file",
+        nargs="?",
         type=Path,
-        help="Path to the .mdr session file.",
+        default=_DEFAULT_SESSION_FILE,
+        help=(
+            "Path to the .mdr session file "
+            "(default: quarterly_output/sessions/MDR/MDR-0156.mdr)."
+        ),
     )
     parser.add_argument(
         "--field",
