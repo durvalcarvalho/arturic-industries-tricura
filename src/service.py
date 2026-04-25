@@ -11,12 +11,18 @@ This module glue all the other modules together to perform the processing pipeli
 TODO: Check if Compliance Annex rules has more rules, it may impact here
 """
 
+import logging
 from pathlib import Path
 
 from .models import EntryRecord, SessionDocument
 from .reference import ReferenceData, default_reference
 from .repository import iter_session_files, load_session
 from .validation import RunStats, validate_entry, validate_session
+
+logger = logging.getLogger(__name__)
+
+# Log progress every 25 files
+_PROGRESS_EVERY_FILES = 25
 
 
 def process_quarterly(
@@ -34,13 +40,33 @@ def process_quarterly(
 
     # Initialize the stats aggregator
     stats = _init_run_stats(all_paths)
+    logger.info(
+        "Starting quarterly processing: root=%s files=%d strict_entry_keys=%s",
+        sessions_root,
+        stats.files_seen,
+        strict_entry_keys,
+    )
 
     # Process each session
-    for path in all_paths:
+    for index, path in enumerate(all_paths, start=1):
         doc = load_session(path)
         _process_session(doc, stats, ref, strict_entry_keys=strict_entry_keys)
+        _log_progress(index, stats.files_seen, stats)
 
     # TODO(annex): may add new stats here after compliance annex rules
+    logger.info(
+        "Finished quarterly processing: files=%d sessions_valid=%d sessions_invalid=%d "
+        "entries_seen=%d entries_valid=%d entries_invalid=%d sum_valid_values=%.2f",
+        stats.files_seen,
+        stats.sessions_valid,
+        stats.sessions_invalid,
+        stats.entries_seen,
+        stats.entries_valid,
+        stats.entries_invalid,
+        stats.sum_valid_values,
+    )
+    logger.info("Invalid session reasons: %s", stats.invalid_session_reasons)
+    logger.info("Invalid entry reasons: %s", stats.invalid_entry_reasons)
     return stats
 
 
@@ -74,15 +100,32 @@ def _process_session(
         stats.sessions_invalid += 1
         stats.bump_reason(stats.invalid_session_reasons, sv.reasons)
         stats.entries_ignored_invalid_session += len(doc.entries)
+        logger.warning(
+            "Rejected session: id=%s path=%s reasons=%s ignored_entries=%d",
+            doc.session_id,
+            doc.source_path,
+            list(sv.reasons),
+            len(doc.entries),
+        )
         return
 
     stats.sessions_valid += 1
+    invalid_entries_before = stats.entries_invalid
     _process_valid_session_entries(
         doc,
         stats,
         ref,
         strict_entry_keys=strict_entry_keys,
     )
+    invalid_entries_in_session = stats.entries_invalid - invalid_entries_before
+    if invalid_entries_in_session > 0:
+        logger.info(
+            "Session processed with rejected entries: id=%s path=%s invalid_entries=%d total_entries=%d",
+            doc.session_id,
+            doc.source_path,
+            invalid_entries_in_session,
+            len(doc.entries),
+        )
 
 
 def _process_valid_session_entries(
@@ -126,3 +169,15 @@ def _process_entry(
 
     stats.entries_valid += 1
     stats.sum_valid_values += float(entry.value)
+
+
+def _log_progress(processed_files: int, total_files: int, stats: RunStats) -> None:
+    if processed_files == total_files or processed_files % _PROGRESS_EVERY_FILES == 0:
+        logger.info(
+            "Progress: files=%d/%d sessions_valid=%d sessions_invalid=%d entries_seen=%d",
+            processed_files,
+            total_files,
+            stats.sessions_valid,
+            stats.sessions_invalid,
+            stats.entries_seen,
+        )

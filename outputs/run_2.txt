@@ -1,0 +1,75 @@
+Rejected session: id=MDR-0164 path=quarterly_output/sessions/MDR/MDR-0164.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=7
+Rejected session: id=MDR-0165 path=quarterly_output/sessions/MDR/MDR-0165.mdr reasons=['department_not_allowed'] ignored_entries=18
+Rejected session: id=MDR-0169 path=quarterly_output/sessions/MDR/MDR-0169.mdr reasons=['department_not_allowed'] ignored_entries=19
+Rejected session: id=MDR-0172 path=quarterly_output/sessions/MDR/MDR-0172.mdr reasons=['department_not_allowed'] ignored_entries=14
+Rejected session: id=MDR-0173 path=quarterly_output/sessions/MDR/MDR-0173.mdr reasons=['department_not_allowed'] ignored_entries=13
+Rejected session: id=MDR-0174 path=quarterly_output/sessions/MDR/MDR-0174.mdr reasons=['department_not_allowed'] ignored_entries=5
+Rejected session: id=MDR-0177 path=quarterly_output/sessions/MDR/MDR-0177.mdr reasons=['department_not_allowed'] ignored_entries=19
+Rejected session: id=MDR-0180 path=quarterly_output/sessions/MDR/MDR-0180.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=19
+Rejected session: id=MDR-0181 path=quarterly_output/sessions/MDR/MDR-0181.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=9
+Rejected session: id=MDR-0183 path=quarterly_output/sessions/MDR/MDR-0183.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=18
+Rejected session: id=MDR-0185 path=quarterly_output/sessions/MDR/MDR-0185.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=12
+Rejected session: id=MDR-0190 path=quarterly_output/sessions/MDR/MDR-0190.mdr reasons=['processor_not_authorized'] ignored_entries=14
+Rejected session: id=MDR-0193 path=quarterly_output/sessions/MDR/MDR-0193.mdr reasons=['processor_not_authorized'] ignored_entries=12
+Rejected session: id=MDR-0194 path=quarterly_output/sessions/MDR/MDR-0194.mdr reasons=['processor_not_authorized'] ignored_entries=18
+Rejected session: id=MDR-0200 path=quarterly_output/sessions/MDR/MDR-0200.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=6
+Rejected session: id=MDR-0201 path=quarterly_output/sessions/MDR/MDR-0201.mdr reasons=['processor_not_authorized'] ignored_entries=20
+Rejected session: id=MDR-0204 path=quarterly_output/sessions/MDR/MDR-0204.mdr reasons=['timestamp_outside_q4_2025'] ignored_entries=18
+Rejected session: id=MDR-0205 path=quarterly_output/sessions/MDR/MDR-0205.mdr reasons=['processor_not_authorized'] ignored_entries=8
+Rejected session: id=MDR-0208 path=quarterly_output/sessions/MDR/MDR-0208.mdr reasons=['department_not_allowed'] ignored_entries=13
+Rejected session: id=MDR-0211 path=quarterly_output/sessions/MDR/MDR-0211.mdr reasons=['processor_not_authorized'] ignored_entries=19
+Rejected session: id=MDR-0212 path=quarterly_output/sessions/MDR/MDR-0212.mdr reasons=['department_not_allowed'] ignored_entries=15
+Rejected session: id=MDR-0213 path=quarterly_output/sessions/MDR/MDR-0213.mdr reasons=['processor_not_authorized'] ignored_entries=11
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'NULL' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): 'N/A' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Value is not a number (int or float): '---' (type: str)
+Value is not a number (int or float): 'ERROR' (type: str)
+Quarterly processing completed
+Sessions root: quarterly_output
+Strict entry keys: True
+
+Main metrics
+- files_seen: 263
+- files_used: 263
+- sessions_valid: 241
+- sessions_invalid: 22
+- entries_seen: 3138
+- entries_valid: 2998
+- entries_invalid: 140
+- entries_ignored_invalid_session: 307
+- sum_valid_values: 880599.7100000005
+
+Invalid session reasons
+{'timestamp_outside_q4_2025': 7, 'department_not_allowed': 8, 'processor_not_authorized': 7}
+
+Invalid entry reasons
+{"unexpected_fields:['calibration_note']": 1, 'value_not_positive': 34, 'bin_not_allowed': 36, 'value_not_numeric': 33, 'category_not_allowed': 37}
